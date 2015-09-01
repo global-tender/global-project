@@ -7,9 +7,15 @@
 <div class="container">
 	<div class="full-wrapper">
 
-		<div class="head-menu">
-
-		</div>
+		<header class="head-menu">
+			<nav>
+				<ul class="menu-ul">
+					<li class="menu-li"><a href="/">Главная</a></li>
+					<li class="menu-li"><a href="/projects/">Проекты</a></li>
+					<li class="menu-li"><a href="/contacts/">Контакты</a></li>
+				</ul>
+			</nav>
+		</header>
 
 		<div class="cover">
 			<div class="cover-overlay"></div>

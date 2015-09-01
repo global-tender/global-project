@@ -38,6 +38,7 @@
 
         <!-- fonts -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Jura:400,500,600&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
         <!-- //fonts -->
 
     </head>
