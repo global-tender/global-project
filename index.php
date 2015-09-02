@@ -5,21 +5,22 @@
 ?>
 
 <div class="container">
+
+	<header class="head-menu">
+		<nav>
+			<ul class="menu-ul">
+				<li class="menu-li"><a href="/">Главная</a></li>
+				<li class="menu-li"><a href="/projects/">Проекты</a></li>
+				<li class="menu-li"><a href="/contacts/">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+
 	<div class="full-wrapper">
 
-		<header class="head-menu">
-			<nav>
-				<ul class="menu-ul">
-					<li class="menu-li"><a href="/">Главная</a></li>
-					<li class="menu-li"><a href="/projects/">Проекты</a></li>
-					<li class="menu-li"><a href="/contacts/">Контакты</a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<div class="cover">
-			<div class="cover-overlay"></div>
-			<div class="cover-text">
+		<div class="index-slide1">
+			<div class="index-slide1-overlay"></div>
+			<div class="index-slide1-main-text">
 				РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ Микрорайона, жилого комплекса, коттеджного поселка, линейного объекта <span class="border-bottom-white">В КОРОТКИЕ СРОКИ</span>
 			</div>
 		</div>
