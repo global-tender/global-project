@@ -31,15 +31,15 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- fonts -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Jura:600&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+        <!-- //fonts -->
+
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/style.css">
         <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
-
-        <!-- fonts -->
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Jura:400,500,600&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-        <!-- //fonts -->
 
     </head>
     <body>

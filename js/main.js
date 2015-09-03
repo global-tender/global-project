@@ -75,6 +75,9 @@ jQuery.fn.isSlideOnScreen = function(slideParam){
 
 	var inViewportBottom = slideOffset.bottom - viewport.top + 53;
 
+	if ( slideParam == 'neutral' )
+		return false;
+
 	if ( slideParam == 'down' )
 	{
 		if ( inViewportTop > 0 )
@@ -82,9 +85,7 @@ jQuery.fn.isSlideOnScreen = function(slideParam){
 			diff = elementHeight / 2;
 
 			if ( inViewportTop < diff )
-			{
 				return true;
-			}
 		}
 	}
 	else if ( slideParam == 'up' )
@@ -94,9 +95,7 @@ jQuery.fn.isSlideOnScreen = function(slideParam){
 			diff = elementHeight / 2;
 
 			if ( inViewportBottom < diff )
-			{
 				return true;
-			}
 		}
 	}
 	return false;
@@ -110,13 +109,18 @@ jQuery.fn.isSlideOnScreen = function(slideParam){
 
 $(window).on('DOMMouseScroll mousewheel', function(event) {
 
-	if( event.originalEvent.detail > 0 || event.originalEvent.wheelDelta < 0 )
+	slideParam = 'neutral';
+	if ( event.originalEvent.wheelDelta )
 	{
-		slideParam = 'down';
-
-	} else {
-		slideParam = 'up';
+		if ( event.originalEvent.wheelDelta > 0 )
+			slideParam = 'up';
+		else
+			slideParam = 'down';
 	}
+	else if ( event.originalEvent.detail == -3 )
+		slideParam = 'up';
+	else if (event.originalEvent.detail == 3 )
+		slideParam = 'down';
 
 	if( $('.index-slide1').isSlideOnScreen(slideParam) ){
 
