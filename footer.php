@@ -24,7 +24,8 @@
 				function(){
 					$('#toTop').animate({"margin-bottom":"0px"}, 'fast');
 				});
-		});
+			});
+
 		</script>
 		<!-- //smooth scrolling -->
 	</body>
