@@ -18,10 +18,20 @@
 
 	<div class="full-wrapper">
 
+		<div class="index-slide0">
+			<div class="index-slide0-overlay"></div>
+			
+			<div class="index-slide0-main-text">
+				<p class="clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И МЕЖЕВАНИЯ</p>
+			</div>
+
+			<video autoplay="" loop="" muted="" src="/img/video.mp4" class="video-bg"></video>
+
+		</div>
 		<div class="index-slide1">
 			<div class="index-slide1-overlay"></div>
 			<div class="index-slide1-main-text">
-				<p class="clean global-text">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И МЕЖЕВАНИЯ</p>
+				<p class="clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И МЕЖЕВАНИЯ</p>
 				<p class="clean global-text">Микрорайона, Жилого комплекса, Коттеджного поселка, Промышленной зоны, Линейного объекта (инженерные сети)</p>
 				<p class="clean"><span class="border-bottom-aqua">В КОРОТКИЕ СРОКИ</span></p>
 			</div>

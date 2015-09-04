@@ -122,6 +122,19 @@ $(window).on('DOMMouseScroll mousewheel', function(event) {
 	else if (event.originalEvent.detail == 3 )
 		slideParam = 'down';
 
+	if( $('.index-slide0').isSlideOnScreen(slideParam) ){
+
+		disable_scroll();
+
+		var slideTop = $('.index-slide0').offset().top;
+
+		$('html,body').stop().animate({
+			scrollTop: slideTop
+		}, 1000, function() {
+			enable_scroll();
+		});
+		return false;
+	}
 	if( $('.index-slide1').isSlideOnScreen(slideParam) ){
 
 		disable_scroll();

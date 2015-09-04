@@ -1,7 +1,10 @@
 .container {
 	min-height: 100%;
-	font-family: 'Jura', sans-serif;
-	font-weight: 600;
+	/*font-family: 'Jura', sans-serif;*/
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-rendering: optimizelegibility;
 }
 
 .full-wrapper {
@@ -67,6 +70,50 @@
 }
 
 
+.index-slide0 {
+	height: 100vh;
+	/*background: url("/img/cover7.jpg") no-repeat center center /cover;*/
+	background-position: center;
+	display: table;
+}
+
+.index-slide0-overlay {
+	position: absolute;
+	height: 100%;
+	background: rgba(26, 111, 111, 0.1);
+	width: 100%;
+}
+
+.index-slide0-main-text {
+	display: table-cell;
+	color: #fff;
+	width: 760px;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Video */
+
+.video-bg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -10;
+}
+
+/* // Video */
+
 .index-slide1 {
 	height: 100vh;
 	background: url("/img/cover7.jpg") no-repeat center center /cover;
@@ -81,7 +128,7 @@
 }
 
 .index-slide1-main-text {
-	position: absolute;
+	position: relative;
 	background: rgba(0, 0, 0, 0.7);
 	color: rgb(219, 230, 103); /*rgb(234, 255, 12)*/;
 	font-size: 24px;
@@ -212,4 +259,14 @@ footer {
 
 .center {
 	text-align: center;
+}
+
+.text-branding {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.h4 {
+	font-size: 18px;
+	font-weight: bold;
 }
