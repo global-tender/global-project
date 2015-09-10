@@ -33,7 +33,8 @@
 
         <!-- fonts -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Jura:600&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <!-- //fonts -->
 
         <link rel="stylesheet" href="/css/normalize.css">

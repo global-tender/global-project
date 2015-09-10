@@ -106,6 +106,38 @@ jQuery.fn.isSlideOnScreen = function(slideParam){
 // Switch between Slides
 //
 ////////////////////////
+$(window).keydown(function( event ) {
+
+	var slideParam = "neutral";
+
+	if ( event.which == 40 )
+		slideParam = "down";
+	if ( event.which == 38 )
+		slideParam = "up";
+
+	if ( slideParam != "neutral" )
+	{
+		event.preventDefault();
+
+		$('.index-slide0, .index-slide1, .index-slide2, .index-slide3').each(function(){
+			if( $(this).isSlideOnScreen(slideParam) )
+			{
+				disable_scroll();
+
+				var slideTop = $(this).offset().top;
+
+				$('html,body').stop().animate({
+					scrollTop: slideTop
+				}, 1000, function() {
+					enable_scroll();
+				});
+				return false;
+			}
+		});
+
+	}
+
+});
 
 $(window).on('DOMMouseScroll mousewheel', function(event) {
 
@@ -122,55 +154,51 @@ $(window).on('DOMMouseScroll mousewheel', function(event) {
 	else if (event.originalEvent.detail == 3 )
 		slideParam = 'down';
 
-	if( $('.index-slide0').isSlideOnScreen(slideParam) ){
+	if ( slideParam != "neutral" )
+	{
+		event.preventDefault();
 
 		disable_scroll();
 
-		var slideTop = $('.index-slide0').offset().top;
+		$('.index-slide0, .index-slide1, .index-slide2, .index-slide3').each(function(){
+			if( $(this).isSlideOnScreen(slideParam) )
+			{
+				var slideTop = $(this).offset().top;
 
-		$('html,body').stop().animate({
-			scrollTop: slideTop
-		}, 1000, function() {
-			enable_scroll();
+				$('html,body').stop().animate({
+					scrollTop: slideTop
+				}, 1000, function() {
+					enable_scroll();
+				});
+				return false;
+			}
 		});
-		return false;
 	}
-	if( $('.index-slide1').isSlideOnScreen(slideParam) ){
-
-		disable_scroll();
-
-		var slideTop = $('.index-slide1').offset().top;
-
-		$('html,body').stop().animate({
-			scrollTop: slideTop
-		}, 1000, function() {
-			enable_scroll();
-		});
-		return false;
-	}
-	if( $('.index-slide2').isSlideOnScreen(slideParam) ){
-
-		disable_scroll();
-
-		var slideTop = $('.index-slide2').offset().top;
-		$('html,body').stop().animate({
-			scrollTop: slideTop
-		}, 1000, function() {
-			enable_scroll();
-		});
-		return false;
-	}
-	if( $('.index-slide3').isSlideOnScreen(slideParam) ){
-
-		disable_scroll();
-
-		var slideTop = $('.index-slide3').offset().top;
-		$('html,body').stop().animate({
-			scrollTop: slideTop
-		}, 1000, function() {
-			enable_scroll();
-		});
-		return false;
-	}
-
 });
+
+
+/* Link-arrow to second slide */
+var down_link = (function(){
+	$(document).on('click', '.down-link', function(){
+		$('html, body').animate({
+			scrollTop: $(window).height()
+		}, 1000);
+		return false;
+	});
+})();
+
+$(document).ready(function(){
+	$('.down-link, .text-branding, .head-menu').hover(function(){
+			$('.down-link').animate({"bottom":"-2%"}, 'slow');
+		}, function(){
+			$('.down-link').animate({"bottom":"-2%"}, 'slow');
+	});
+
+	$('.down-link, .text-branding, .head-menu').hover(function(){
+			$('.down-link').animate({"bottom":"2%"}, 'slow');
+		}, function() {
+			$('.down-link').animate({"bottom":"2%"}, 'slow');
+	});
+});
+
+/* // Link-arrow to second slide */
