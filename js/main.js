@@ -82,7 +82,7 @@ jQuery.fn.isSlideOnScreen = function(slideParam){
 	{
 		if ( inViewportTop > 0 )
 		{
-			diff = elementHeight / 2;
+			diff = elementHeight / 1.2;
 
 			if ( inViewportTop < diff )
 				return true;
@@ -92,7 +92,7 @@ jQuery.fn.isSlideOnScreen = function(slideParam){
 	{
 		if (inViewportBottom > 0 )
 		{
-			diff = elementHeight / 2;
+			diff = elementHeight / 1.2 ;
 
 			if ( inViewportBottom < diff )
 				return true;
@@ -119,7 +119,7 @@ $(window).keydown(function( event ) {
 	{
 		event.preventDefault();
 
-		$('.index-slide0, .index-slide1, .index-slide2, .index-slide3').each(function(){
+		$('.index-slide0, .index-slide1, .index-slide2, .index-slide3, .footer').each(function(){
 			if( $(this).isSlideOnScreen(slideParam) )
 			{
 				disable_scroll();
@@ -141,6 +141,11 @@ $(window).keydown(function( event ) {
 
 $(window).on('DOMMouseScroll mousewheel', function(event) {
 
+	if ($('#map').is(':hover')) {
+		return false; /* do not switch slides when mouse is over Yandex Map */
+	}
+
+
 	slideParam = 'neutral';
 	if ( event.originalEvent.wheelDelta )
 	{
@@ -160,7 +165,7 @@ $(window).on('DOMMouseScroll mousewheel', function(event) {
 
 		disable_scroll();
 
-		$('.index-slide0, .index-slide1, .index-slide2, .index-slide3').each(function(){
+		$('.index-slide0, .index-slide1, .index-slide2, .index-slide3, .footer').each(function(){
 			if( $(this).isSlideOnScreen(slideParam) )
 			{
 				var slideTop = $(this).offset().top;
@@ -202,3 +207,25 @@ $(document).ready(function(){
 });
 
 /* // Link-arrow to second slide */
+
+/* Scroll to Contacts */
+var contacts_link = (function(){
+	$(document).on('click', '.contacts', function(){
+		$('html, body').animate({
+			scrollTop: $('.footer').offset().top
+		}, 1000);
+		return false;
+	});
+})();
+/* //Scroll to contacts */
+
+/* Disable global scroll above some DIV */
+$(document).ready(function () {
+	$('.scroll-only-this').bind('mousewheel DOMMouseScroll', function (e) {
+		var e0 = e.originalEvent,
+			delta = e0.wheelDelta || -e0.detail;
+		this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+		e.preventDefault();
+	});
+});
+/* //Disable global scroll above some DIV */

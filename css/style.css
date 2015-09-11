@@ -91,7 +91,7 @@ a {
 	font-size: 17px;
 }
 
-@media only screen and (max-width : 320px) {  
+@media only screen and (max-width : 320px) {
 	.head-menu {
 		right: 0;
 		margin-right: 0;
@@ -273,15 +273,74 @@ a {
 
 footer {
 	height: 300px;
-	background: url("/img/cover5.jpg") no-repeat center center /cover;
+	background: url("/img/cover6.jpg") no-repeat center center /cover;
+	background-color: #BCC6CC;
 	background-position: center;
 }
 
 .footer-overlay {
 	position: absolute;
-	height: 100%;
-	background: rgba(4, 19, 2, 0.5);
+	height: 300px;
+	background: rgba(2, 0, 35, 0.8);
 	width: 100%;
+}
+
+.footer-main-text {
+	position: relative;
+	color: #fff;
+	text-shadow: 2px 2px #0600A0;
+	font-size: 22px;
+	font-weight: 400;
+	left: 0;
+	right: 0;
+	text-align: left;
+	margin-left: 6px;
+	margin-right: 6px;
+
+	width: 30%;
+	float: left;
+	padding: 20px;
+}
+
+.footer-main-text a {
+	color: #fff;
+	text-shadow: 2px 2px #0600A0;
+}
+
+.footer-main-text p {
+	line-height: 1.6;
+}
+
+#map {
+	width: 60%;
+	height: 300px;
+	float: right;
+}
+
+@media only screen and (max-width : 768px) {
+	#map {
+		float: none;
+		height: 70%;
+		width: 100%;
+	}
+
+	.footer {
+		height: 100vh;
+	}
+
+	.footer-overlay {
+		height: 100%;
+	}
+
+	.footer-main-text {
+		width: 100%;
+		float: none;
+		height: 30%;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		padding-top: 20px;
+	}
 }
 
 .border-bottom-aqua {

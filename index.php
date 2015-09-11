@@ -10,8 +10,8 @@
 		<nav>
 			<ul class="menu-ul">
 				<li class="menu-li"><a href="/">Главная</a></li>
-				<li class="menu-li"><a href="/projects/">Проекты</a></li>
-				<li class="menu-li"><a href="/contacts/">Контакты</a></li>
+				<!-- <li class="menu-li"><a href="/projects/">Проекты</a></li> -->
+				<li class="menu-li"><a href="#" class="contacts">Контакты</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -73,9 +73,21 @@
 
 	</div>
 
-<!-- <footer>
+	<footer class="footer">
 		<div class="footer-overlay"></div>
-	</footer> -->
+
+		<div class="footer-main-text">
+			<p class="fittext-footer clean global-text">
+				Россия, г. Ростов-на-Дону,<br />
+				ул. Серафимовича д. 58 А, оф. 502<br />
+				тел. 89508693501 <br />
+				email: <a href="mailto:global-proect@mail.ru">global-proect@mail.ru</a>
+			</p>
+		</div>
+
+		<div id="map"></div>
+
+	</footer>
 </div>
 
 <?php

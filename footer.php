@@ -37,6 +37,38 @@
 			$(".fittext-slide1").fitText(2, { minFontSize: '14px', maxFontSize: '35px' });
 			$(".fittext-slide2").fitText(2, { minFontSize: '14px', maxFontSize: '35px' });
 			$(".fittext-slide3").fitText(2, { minFontSize: '14px', maxFontSize: '35px' });
+			$(".fittext-footer").fitText(2, { minFontSize: '14px', maxFontSize: '22px' });
 		</script>
+
+		<!-- Yandex.Map -->
+		<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				ymaps.ready(init);
+				var myMap, 
+					myPlacemark;
+
+				function init(){ 
+					myMap = new ymaps.Map("map", {
+						center: [47.219104, 39.712066],
+						zoom: 16
+					}); 
+
+					/*myMap.behaviors.disable("scrollZoom");*/
+					
+					myPlacemark = new ymaps.Placemark([47.219104, 39.712066], {
+						hintContent: 'ГК Глобал-Проект',
+						balloonContent: 'Россия, Ростов-на-Дону, улица Серафимовича, 58А, оф. 502'
+					}, {
+						preset: 'islands#blueDotIcon'
+					});
+					
+					myMap.geoObjects.add(myPlacemark);
+				}
+			});
+			
+		</script>
+		<!-- //Yandex.Map -->
 	</body>
 </html>
