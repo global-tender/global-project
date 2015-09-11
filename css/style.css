@@ -91,6 +91,22 @@ a {
 	font-size: 17px;
 }
 
+.logo-top {
+	font-weight: 500;
+	position: absolute;
+	top: 5px;
+	left: 18px;
+	color: #fff;
+	text-shadow: 2px 2px #0600A0;
+	font-size: 40px;
+	z-index: 5;
+
+	-webkit-transform: scaleY(1.5);
+	-ms-transform: scaleY(1.5);
+	-moz-transform: scaleY(1.5);
+	transform: scaleY(1.5);
+}
+
 @media only screen and (max-width : 320px) {
 	.head-menu {
 		right: 0;
@@ -169,7 +185,7 @@ a {
 
 .index-slide1 {
 	height: 100vh;
-	background: url("/img/cover9.jpg") no-repeat center center /cover;
+	background: url("/img/cover12.jpg") no-repeat center center /cover;
 	background-position: center;
 }
 
@@ -272,7 +288,7 @@ a {
 
 
 footer {
-	height: 300px;
+	height: 100vh;
 	background: url("/img/cover6.jpg") no-repeat center center /cover;
 	background-color: #BCC6CC;
 	background-position: center;
@@ -280,12 +296,29 @@ footer {
 
 .footer-overlay {
 	position: absolute;
-	height: 300px;
+	height: 100%;
 	background: rgba(2, 0, 35, 0.8);
 	width: 100%;
 }
 
-.footer-main-text {
+.footer-main-text0 {
+	position: relative;
+	color: #fff;
+	text-shadow: 2px 2px #0600A0;
+	font-size: 22px;
+	font-weight: 400;
+	left:0;
+	right: 0;
+	text-align: left;
+	margin-left: 6px;
+	margin-right: 6px;
+
+	padding: 20px;
+
+	height: 5%;
+}
+
+.footer-main-text1 {
 	position: relative;
 	color: #fff;
 	text-shadow: 2px 2px #0600A0;
@@ -297,49 +330,52 @@ footer {
 	margin-left: 6px;
 	margin-right: 6px;
 
-	width: 30%;
-	float: left;
 	padding: 20px;
 }
 
-.footer-main-text a {
+.footer-main-text1 a {
 	color: #fff;
 	text-shadow: 2px 2px #0600A0;
 }
 
-.footer-main-text p {
+.footer-main-text1 p {
 	line-height: 1.6;
 }
 
 #map {
-	width: 60%;
-	height: 300px;
-	float: right;
+	width: 100%;
+	height: 65%;
+}
+
+.logo-text {
+	font-weight: 700;
+}
+
+.contacts-text1 {
+	float: left;
+	width: 40%;
+}
+
+.contacts-text2 {
+	float: left;
+	width: 40%;
 }
 
 @media only screen and (max-width : 768px) {
 	#map {
 		float: none;
-		height: 70%;
+		height: 55%;
 		width: 100%;
 	}
 
-	.footer {
-		height: 100vh;
-	}
-
-	.footer-overlay {
-		height: 100%;
-	}
-
-	.footer-main-text {
+	.contacts-text1 {
 		width: 100%;
 		float: none;
-		height: 30%;
-		padding: 0;
-		margin: 0;
-		text-align: center;
-		padding-top: 20px;
+	}
+
+	.contact-text2 {
+		width: 100%;
+		float:none;
 	}
 }
 

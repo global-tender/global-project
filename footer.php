@@ -37,7 +37,8 @@
 			$(".fittext-slide1").fitText(2, { minFontSize: '14px', maxFontSize: '35px' });
 			$(".fittext-slide2").fitText(2, { minFontSize: '14px', maxFontSize: '35px' });
 			$(".fittext-slide3").fitText(2, { minFontSize: '14px', maxFontSize: '35px' });
-			$(".fittext-footer").fitText(2, { minFontSize: '14px', maxFontSize: '22px' });
+			$(".fittext-footer1").fitText(2, { minFontSize: '12px', maxFontSize: '22px' });
+			$(".fittext-footer2").fitText(2, { minFontSize: '12px', maxFontSize: '22px' });
 		</script>
 
 		<!-- Yandex.Map -->
