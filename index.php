@@ -10,7 +10,7 @@
 		<nav>
 			<ul class="menu-ul">
 				<li class="menu-li"><a href="/">Главная</a></li>
-				<!-- <li class="menu-li"><a href="/projects/">Проекты</a></li> -->
+				<li class="menu-li"><a href="/projects/">Проекты</a></li>
 				<li class="menu-li"><a href="#" class="contacts">Контакты</a></li>
 			</ul>
 		</nav>
@@ -84,7 +84,13 @@
 		<div class="footer-overlay"></div>
 
 		<div class="footer-main-text0">
-			<p class="clean global-text logo-text">ГК Глобал-Проект</p>
+
+			<p class="clean global-text logo-footer-text">ГК Глобал-Проект</p>
+
+			<p class="clean global-text footer-menu">
+				<a href="#" title="Проекты">Проекты</a>
+			</p>
+
 		</div>
 
 		<div id="map"></div>

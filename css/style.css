@@ -1,3 +1,10 @@
+::selection {
+	background: rgba(179, 212, 252, 0.41) none repeat scroll 0% 0%
+}
+::-moz-selection {
+	background: rgba(179, 212, 252, 0.41) none repeat scroll 0% 0%
+}
+
 .container {
 	min-height: 100%;
 }
@@ -67,6 +74,8 @@ a {
 	-ms-transition: all .1s ease;
 	-moz-transition: all .1s ease;
 	transition: all .1s ease;
+
+	display: inline-block;
 }
 
 .head-menu .menu-ul .menu-li a:hover {
@@ -347,35 +356,94 @@ footer {
 	height: 65%;
 }
 
-.logo-text {
+.logo-footer-text {
 	font-weight: 700;
+	display: table-cell;
+	width: 100%;
+}
+
+.footer-menu {
+	display: table-cell;
+	right: 20px;
+	position: relative;
+}
+
+.footer-menu a {
+	-webkit-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	transition: all .1s ease;
+
+	display: inline-block;
+}
+
+.footer-menu a:hover {
+	color: #B7B7B7;
+	text-decoration: none;
+	border-bottom: none;
+	-webkit-transform: scale(1.05, 1.05);
+	-ms-transform: scale(1.05, 1.05);
+	-moz-transform: scale(1.05, 1.05);
+	transform: scale(1.05, 1.05);
+
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.footer-menu a {
+	color: #fff;
+	text-shadow: 1px 1px #0600A0;
+
+	text-decoration: none;
+	border-bottom: 1px dashed #9D9CAA;
+	padding-bottom: 2px;
+	font-weight: 400;
+	font-size: 17px;
 }
 
 .contacts-text1 {
-	float: left;
+	display: table-cell;
 	width: 40%;
 }
 
 .contacts-text2 {
-	float: left;
+	display: table-cell;
 	width: 40%;
 }
 
 @media only screen and (max-width : 768px) {
+	.footer-main-text0 {
+		height: 10%;
+	}
+
+	.logo-footer-text {
+		display: inline-block;
+	}
+
+	.logo-footer-text.global-text {
+		padding-bottom: 0px;
+	}
+
+	.footer-menu {
+		display: inline-block;
+		right: 0;
+	}
+
 	#map {
-		float: none;
-		height: 55%;
+		height: 50%;
 		width: 100%;
 	}
 
 	.contacts-text1 {
 		width: 100%;
-		float: none;
+		display: inline-block;
 	}
 
 	.contact-text2 {
 		width: 100%;
-		float:none;
+		display: inline-block;
 	}
 }
 
