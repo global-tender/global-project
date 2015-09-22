@@ -57,6 +57,10 @@
 				</ul>
 			</div>
 
+			<div class="down-link-container">
+				<a href="#" class="down-link-slides"><i class="fa fa-angle-double-down"></i></a>
+			</div>
+
 		</div>
 
 		<div class="index-slide2">
@@ -70,6 +74,10 @@
 				</p>
 			</div>
 
+			<div class="down-link-container">
+				<a href="#" class="down-link-slides"><i class="fa fa-angle-double-down"></i></a>
+			</div>
+
 		</div>
 
 		<div class="index-slide3">
@@ -79,6 +87,10 @@
 				<p class="fittext-slide3 clean global-text">
 					Проект планировки территории — основа для формирования градостроительных планов земельных участков, необходимых для получения разрешения на строительство, также содержит основные показатели, <b>необходимые для определения инвестиционной привлекательности территории</b> – численность населения и возможные объёмы нового строительства (жилищного, делового, социального, культурно-бытового, транспортного, инженерного).
 				</p>
+			</div>
+
+			<div class="down-link-container">
+				<a href="#" class="down-link-slides"><i class="fa fa-angle-double-down"></i></a>
 			</div>
 
 		</div>
@@ -93,7 +105,7 @@
 			<p class="clean global-text logo-footer-text">ГК Глобал-Проект</p>
 
 			<p class="clean global-text footer-menu">
-				<a href="#" title="Проекты">Проекты</a>
+				<a href="/projects/" title="Проекты">Проекты</a>
 			</p>
 
 		</div>

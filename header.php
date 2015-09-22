@@ -37,6 +37,17 @@
         <link href='https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <!-- //fonts -->
 
+        <?php
+            if ( dirname($_SERVER['PHP_SELF']) == "/projects" )
+            {
+                echo "
+                    <script type='text/javascript' src='/js/highslide/highslide-with-gallery.packed.js'></script>
+                    <script type='text/javascript' src='/js/highslide/highslide.config.js'></script>
+                    <link href='/js/highslide/highslide.css' rel='stylesheet'>
+                ";
+            }
+        ?>
+
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/style.css">
