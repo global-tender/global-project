@@ -120,72 +120,41 @@ a {
 	overflow: hidden;
 }
 
-.logo-top-line {
-	letter-spacing: -10px;
-	z-index: 6;
-	position: absolute;
-	top: -8.5px;
-	left: 9px;
-	-webkit-transform: scaleY(1.5);
-	-ms-transform: scaleY(1.5);
-	-moz-transform: scaleY(1.5);
-	transform: scaleY(1.5);
-	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
-	font-size: 38px;
-}
-
 .gk {
 	display: inline-block;
-	font-size: 56px;
+	font-size: 40px;
+}
+
+.logo-top.logo-small {
+	font-size: 18px;
+	top: 37px;
+	width: 174px;
+}
+
+.gk.logo-small {
+	font-size: 18px;
+	text-shadow: 2px 2px 1px #0600A0;
 }
 
 @media only screen and (max-width: 768px) {
 
 	.logo-top {
 		font-size: 18px;
-		top: 10px;
+		top: 32px;
 		width: 174px;
 	}
 
-	.logo-top-line {
-		letter-spacing: -8px;
-		top: -9.6px;
-		left: 5px;
-		font-size: 31px;
-		-webkit-transform: none;
-		-ms-transform: none;
-		-moz-transform: none;
-		transform: none;
-	}
-
 	.gk {
-		font-size: 33.5px;
+		font-size: 18px;
 		text-shadow: 2px 2px 1px #0600A0;
 	}
 
-}
+	.logo-top.logo-small {
+		font-size: 18px;
+		top: 32px;
+		width: 174px;
+	}
 
-.logo-top.logo-small {
-	font-size: 18px;
-	top: 20px;
-	width: 174px;
-}
-
-.logo-top-line.logo-small {
-	letter-spacing: -8px;
-	top: -9.6px;
-	left: 5px;
-	font-size: 31px;
-	-webkit-transform: none;
-	-ms-transform: none;
-	-moz-transform: none;
-	transform: none;
-}
-
-.gk.logo-small {
-	font-size: 33.5px;
-	text-shadow: 2px 2px 1px #0600A0;
 }
 
 @media only screen and (max-width : 532px) {
