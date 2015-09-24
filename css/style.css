@@ -12,27 +12,27 @@
 html {
 	font-family: "Exo 2", "Play", sans-serif;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 p {
 	font-family: "Exo 2", "Play", sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 span {
 	font-family: "Exo 2", "Play", sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 li {
 	font-family: "Exo 2", "Play", sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 a {
 	font-family: "Exo 2", "Play", sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 
@@ -101,12 +101,11 @@ a {
 }
 
 .logo-top {
-	font-weight: 500;
+	font-weight: 700;
 	position: absolute;
 	top: 5px;
 	left: 18px;
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 	font-size: 40px;
 	z-index: 5;
 
@@ -133,7 +132,6 @@ a {
 
 .gk.logo-small {
 	font-size: 18px;
-	text-shadow: 2px 2px 1px #0600A0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -146,7 +144,6 @@ a {
 
 	.gk {
 		font-size: 18px;
-		text-shadow: 2px 2px 1px #0600A0;
 	}
 
 	.logo-top.logo-small {
@@ -200,7 +197,6 @@ a {
 
 .index-slide0-main-text {
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 	text-align: center;
 	position: relative;
 	margin-left: 6px;
@@ -253,9 +249,8 @@ a {
 .index-slide1-main-text {
 	position: relative;
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 	font-size: 35px;
-	font-weight: 400;
+	font-weight: 700;
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -293,9 +288,8 @@ a {
 .index-slide2-main-text {
 	position: relative;
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 	font-size: 35px;
-	font-weight: 400;
+	font-weight: 700;
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -326,9 +320,8 @@ a {
 .index-slide3-main-text {
 	position: relative;
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 	font-size: 35px;
-	font-weight: 400;
+	font-weight: 700;
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -360,7 +353,6 @@ footer {
 .footer-main-text0 {
 	position: relative;
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 	font-size: 22px;
 	font-weight: 400;
 	left:0;
@@ -377,7 +369,6 @@ footer {
 .footer-main-text1 {
 	position: relative;
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 	font-size: 22px;
 	font-weight: 400;
 	left: 0;
@@ -389,9 +380,16 @@ footer {
 	padding: 20px;
 }
 
+.footer-main-text1 p {
+	font-weight: 500 !important;
+}
+
+.footer-main-text1 a {
+	font-weight: 500 !important;
+}
+
 .footer-main-text1 a {
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 }
 
 .footer-main-text1 p {
@@ -607,12 +605,15 @@ footer {
 .projects-h2 {
 	font-size: 1.7em;
 	color: #fff;
-	text-shadow: 2px 2px 2px #0600A0;
 	top: 28px;
 	background: rgb(80, 91, 67);
 	padding: 15px;
 	border-radius: 10px;
 	background: url("/img/cover5.jpg") no-repeat center center /cover;
+}
+
+.projects-h2 p {
+	font-weight: 500 !important;
 }
 
 .projects-h2:before {
