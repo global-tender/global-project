@@ -604,30 +604,14 @@ footer {
 
 .projects-h2 {
 	font-size: 1.7em;
-	color: #fff;
+	color: #111;
 	top: 28px;
-	background: rgb(80, 91, 67);
 	padding: 15px;
 	border-radius: 10px;
-	background: url("/img/cover5.jpg") no-repeat center center /cover;
 }
 
 .projects-h2 p {
 	font-weight: 500 !important;
-}
-
-.projects-h2:before {
-	content: "";
-	position: absolute;
-	z-index: 0;
-	background: rgba(0, 0, 0, 0.5);
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border-radius: 10px;
-	height: 68px;
-	margin-top: 25px;
 }
 
 .projects-h2 p {
@@ -635,7 +619,6 @@ footer {
 }
 
 .projects-wrapper {
-	background: rgba(227, 255, 103, 0.63);
 }
 
 .projects-imgs {
