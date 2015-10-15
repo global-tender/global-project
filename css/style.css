@@ -66,7 +66,7 @@ a {
 
 .head-menu .menu-ul .menu-li {
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 35px;
 }
 
 .head-menu .menu-ul .menu-li a {
@@ -76,6 +76,8 @@ a {
 	transition: all .1s ease;
 
 	display: inline-block;
+	font-size: 1.25em;
+	letter-spacing: 0.3px;
 }
 
 .head-menu .menu-ul .menu-li a:hover {
@@ -134,11 +136,11 @@ a {
 	font-size: 18px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
 
 	.logo-top {
 		font-size: 18px;
-		top: 32px;
+		top: 37px;
 		width: 174px;
 	}
 
@@ -148,13 +150,14 @@ a {
 
 	.logo-top.logo-small {
 		font-size: 18px;
-		top: 32px;
+		top: 37px;
 		width: 174px;
 	}
 
 }
 
 @media only screen and (max-width : 532px) {
+
 	.head-menu {
 		right: 0;
 		margin-right: 0;
@@ -178,6 +181,24 @@ a {
 		line-height: 1.6;
 		padding-right: 18px;
 	}
+
+}
+
+@media only screen and (max-width : 600px) {
+
+	.logo-top {
+		top: 32px;
+	}
+
+	.logo-top.logo-small {
+		top: 32px;
+	}
+
+        .head-menu .menu-ul .menu-li a {
+                font-size: 1em;
+                letter-spacing: 0px;
+        }
+
 }
 
 
@@ -458,9 +479,18 @@ footer {
 	width: 40%;
 }
 
+.contats-text3 {
+	padding-top: 14px;
+}
+
 @media only screen and (max-width : 768px) {
 	.footer-main-text0 {
 		height: 10%;
+		top: -5px;
+	}
+
+	.footer-main-text1 {
+		padding-top: 4px;
 	}
 
 	.logo-footer-text {
@@ -477,7 +507,7 @@ footer {
 	}
 
 	#map {
-		height: 50%;
+		height: 35%;
 		width: 100%;
 	}
 

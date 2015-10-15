@@ -43,26 +43,6 @@
 
 		</div>
 
-		<div class="index-slide1">
-			<div class="index-slide1-overlay"></div>
-
-			<div class="index-slide1-main-text">
-				<p class="fittext-slide1 clean global-text">
-					Наши преимущества по которым Вам стоит нас выбрать
-				</p>
-				<ul>
-					<li class="fittext-slide1">Наши сотрудники — профессионалы, знающие и любящие свое дело</li>
-					<li class="fittext-slide1">Накопленный опыт позволяет легко решать задачи любой  сложности</li>
-					<li class="fittext-slide1">Реализовано уже более <b>70</b>  проектов</li>
-				</ul>
-			</div>
-
-			<div class="down-link-container">
-				<a href="#" class="down-link-slides"><i class="fa fa-angle-double-down"></i></a>
-			</div>
-
-		</div>
-
 		<div class="index-slide2">
 			<div class="index-slide2-overlay"></div>
 
@@ -120,6 +100,10 @@
 			<p class="fittext-footer2 clean global-text contacts-text2">
 				Россия, г. Ростов-на-Дону<br />
 				ул. Серафимовича д. 58 А, оф. 502<br />
+			</p>
+			<p class="fittext-footer3 clean contacts-text3">
+				Представительство: г. Москва, Пресненская набережная д. 6, строение 2, 16 этаж<br />
+				+7 (495) 125-09-05
 			</p>
 		</div>
 

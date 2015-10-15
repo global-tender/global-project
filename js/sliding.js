@@ -119,7 +119,7 @@ $(window).keydown(function( event ) {
 	{
 		event.preventDefault();
 
-		$('.index-slide0, .index-slide1, .index-slide2, .index-slide3, .footer').each(function(){
+		$('.index-slide0, .index-slide2, .index-slide3, .footer').each(function(){
 			if( $(this).isSlideOnScreen(slideParam) )
 			{
 				disable_scroll();
@@ -165,7 +165,7 @@ $(window).on('DOMMouseScroll mousewheel', function(event) {
 
 		disable_scroll();
 
-		$('.index-slide0, .index-slide1, .index-slide2, .index-slide3, .footer').each(function(){
+		$('.index-slide0, .index-slide2, .index-slide3, .footer').each(function(){
 			if( $(this).isSlideOnScreen(slideParam) )
 			{
 				var slideTop = $(this).offset().top;
