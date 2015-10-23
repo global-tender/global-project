@@ -128,7 +128,7 @@ $(window).keydown(function( event ) {
 
 				$('html,body').stop().animate({
 					scrollTop: slideTop
-				}, 1000, function() {
+				}, 500, function() {
 					enable_scroll();
 				});
 				return false;
@@ -172,7 +172,7 @@ $(window).on('DOMMouseScroll mousewheel', function(event) {
 
 				$('html,body').stop().animate({
 					scrollTop: slideTop
-				}, 1000, function() {
+				}, 500, function() {
 					enable_scroll();
 				});
 				return false;
