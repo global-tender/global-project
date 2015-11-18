@@ -3,7 +3,7 @@ var down_link = (function(){
 	$(document).on('click', '.down-link', function(){
 		$('html, body').animate({
 			scrollTop: $(window).height()
-		}, 1000);
+		}, 500);
 		return false;
 	});
 })();
@@ -13,7 +13,7 @@ var down_link_container = (function(){
 	$(document).on('click', '.down-link-container', function(){
 		$('html, body').animate({
 			scrollTop: $(this).parent().offset().top + $(window).height()
-		}, 1000);
+		}, 500);
 		return false;
 	});
 })();
