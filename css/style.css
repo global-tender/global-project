@@ -482,22 +482,12 @@ footer {
 	font-size: 18px;
 }
 
-.contacts-text3 {
-	display: table-cell;
-	width: 63%;
-	border-left: 1px dashed #fff;
-	padding-left: 5px;
-	font-size: 18px;
-}
 
 @media only screen and (max-width: 1280px){
 	.contacts-text1 {
 		font-size: 17px;
 	}
 	.contacts-text2 {
-		font-size: 17px;
-	}
-	.contacts-text3 {
 		font-size: 17px;
 	}
 }
@@ -507,9 +497,6 @@ footer {
 		font-size: 15px;
 	}
 	.contacts-text2 {
-		font-size: 15px;
-	}
-	.contacts-text3 {
 		font-size: 15px;
 	}
 }
@@ -524,11 +511,6 @@ footer {
 		font-size: 14px;
 		display: table-cell;
 		width: 33%;
-	}
-	.contacts-text3 {
-		font-size: 14px;
-		display: table-cell;
-		width: 63%;
 	}
 }
 
@@ -572,13 +554,6 @@ footer {
 		font-size: 12px;
 	}
 
-	.contacts-text3 {
-		width: 100%;
-		display: inline-block;
-		border-left: 0px;
-		padding-left: 0px;
-		font-size: 12px;
-	}
 }
 
 .border-bottom-aqua {
