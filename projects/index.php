@@ -82,16 +82,12 @@
 
 		<div class="footer-main-text1">
 			<p class="clean global-text contacts-text1">
-				Тел.:  89508693501 <br />
+				Тел.:  89508693501 - Алексей<br />
 				E-mail:  <a href="mailto:global-proect@mail.ru">global-proect@mail.ru</a>
 			</p>
 			<p class="clean global-text contacts-text2">
 				Россия, г. Ростов-на-Дону<br />
 				ул. Серафимовича д. 58 А, оф. 502<br />
-			</p>
-			<p class="clean global-text contacts-text3">
-				Представительство:<br />г. Москва, Пресненская набережная д. 6, строение 2, 16 этаж<br />
-				+7 (495) 125-09-05
 			</p>
 		</div>
 
