@@ -68,7 +68,7 @@
 						zoom: 16
 					}); 
 
-					/*myMap.behaviors.disable("scrollZoom");*/
+					myMap.behaviors.disable("scrollZoom");
 					
 					myPlacemark = new ymaps.Placemark([47.219104, 39.712066], {
 						hintContent: 'ГК Глобал-Проект',
