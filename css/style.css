@@ -400,73 +400,65 @@ a {
 
 footer {
 	height: 100vh;
-	background: url("/img/cover6.jpg") no-repeat center center /cover;
 	background-color: #BCC6CC;
 	background-position: center;
 }
 
-.footer-overlay {
-	position: absolute;
-	height: 100%;
-	background: rgba(2, 0, 35, 0.8);
-	width: 100%;
-}
-
 .footer-main-text0 {
-	position: relative;
+	position: absolute;
 	color: #fff;
 	font-size: 22px;
 	font-weight: 400;
 	left:0;
 	right: 0;
 	text-align: left;
-	margin-left: 6px;
-	margin-right: 6px;
 
 	padding: 20px;
 
-	height: 5%;
+	height: 35%;
+	background: rgba(2, 0, 35, 0.6);
+	z-index: 200;
+	box-shadow: 0px 7px 7px 5px rgba(2, 0, 35, 0.6)
 }
 
-.footer-main-text1 {
-	position: relative;
-	color: #fff;
-	font-size: 22px;
-	font-weight: 400;
-	left: 0;
-	right: 0;
-	text-align: left;
-	margin-left: 6px;
-	margin-right: 6px;
-
-	padding: 20px;
+.footer-contact-details {
+	padding-top: 10px;
 }
 
-.footer-main-text1 p {
+.footer-contact-details p {
 	font-weight: 500 !important;
-}
-
-.footer-main-text1 a {
-	font-weight: 500 !important;
-}
-
-.footer-main-text1 a {
-	color: #fff;
-}
-
-.footer-main-text1 p {
 	line-height: 1.6;
+}
+
+.footer-contact-details span {
+	padding-left: 5px;
+	font-weight: 500 !important;
+	line-height: 1.6;
+}
+
+.footer-contact-details a {
+	font-weight: 500 !important;
+	color: #fff;
+}
+
+.footer-contact-details a:hover {
+	text-decoration: none;
+}
+
+.footer-contact-details i {
+	width: 20px;
 }
 
 #map {
 	width: 100%;
-	height: 65%;
+	height: 100%;
 }
 
 .logo-footer-text {
 	font-weight: 700;
 	display: table-cell;
 	width: 100%;
+	font-size: 26px;
 }
 
 .footer-menu {
@@ -480,8 +472,6 @@ footer {
 	-ms-transition: all .1s ease;
 	-moz-transition: all .1s ease;
 	transition: all .1s ease;
-
-	display: inline-block;
 }
 
 .footer-menu a:hover {
@@ -511,87 +501,62 @@ footer {
 }
 
 .contacts-text1 {
-	display: table-cell;
-	width: 27%;
 	font-size: 18px;
 }
 
 .contacts-text2 {
-	display: table-cell;
-	width: 33%;
 	font-size: 18px;
+	padding-top: 10px;
 }
 
-
-@media only screen and (max-width: 1280px){
-	.contacts-text1 {
-		font-size: 17px;
-	}
-	.contacts-text2 {
-		font-size: 17px;
-	}
-}
-
-@media only screen and (max-width: 1000px){
-	.contacts-text1 {
-		font-size: 15px;
-	}
-	.contacts-text2 {
-		font-size: 15px;
-	}
-}
-
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 600px) {
 	.contacts-text1 {
 		font-size: 14px;
 		display: table-cell;
-		width: 27%;
+		width: 266px;
 	}
+
 	.contacts-text2 {
 		font-size: 14px;
 		display: table-cell;
-		width: 33%;
+	}
+
+	.footer-contact-details {
+		padding-top: 0px;
 	}
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 500px) {
+
 	.footer-main-text0 {
-		height: 10%;
-		top: -5px;
-	}
-
-	.footer-main-text1 {
-		padding-top: 5px;
-	}
-
-	.logo-footer-text {
-		display: inline-block;
-	}
-
-	.logo-footer-text.global-text {
-		padding-bottom: 0px;
+		height: 45%;
 	}
 
 	.footer-menu {
-		display: inline-block;
-		right: 0;
+		display: block;
+		right: inherit;
 	}
 
-	#map {
-		height: 35%;
-		width: 100%;
+	.footer-contact-details {
+		padding-top: 5px;
 	}
 
 	.contacts-text1 {
-		width: 100%;
-		display: inline-block;
-		font-size: 12px;
+		display: block;
+		width: inherit;
 	}
 
 	.contacts-text2 {
-		width: 100%;
-		display: inline-block;
-		font-size: 12px;
+		display: block;
+		width: inherit;
+	}
+
+	.logo-footer-text {
+		font-size: 22px;
+	}
+
+	.footer-main-text0 {
+		padding-top: 8px;
 	}
 
 }

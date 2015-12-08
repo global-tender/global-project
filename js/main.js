@@ -81,11 +81,12 @@ $(document).ready(function(){
 
 	function init(){ 
 		myMap = new ymaps.Map("map", {
-			center: [47.219104, 39.712066],
-			zoom: 16
+			center: [47.220084, 39.712066],
+			zoom: 16,
+			controls: []
 		}); 
 
-		myMap.behaviors.disable("scrollZoom");
+		//myMap.behaviors.disable("scrollZoom");
 
 		myPlacemark = new ymaps.Placemark([47.219104, 39.712066], {
 			hintContent: 'ГК Глобал-Проект',
