@@ -16,7 +16,7 @@
 
 		<div class="footer-contact-details">
 			<p class="clean global-text contacts-text1">
-				<i class="fa fa-phone fa-1x"></i><span>Тел.:&nbsp;&nbsp; +7 950 869 35 01 - Алексей</span><br />
+				<i class="fa fa-phone fa-1x"></i><span>Тел.:&nbsp;&nbsp; <?if ($is_mobile) {?><a href="tel:+79508693501">+7 950 869 35 01</a><?} else {?>+7 950 869 35 01<?}?> - Алексей</span><br />
 				<i class="fa fa fa-envelope-o fa-1x"></i><span>E-Mail:&nbsp;&nbsp; <a href="mailto:global-proect@mail.ru" title="Написать на почту">global-proect@mail.ru</a></span>
 			</p>
 			<p class="clean global-text contacts-text2">
@@ -29,16 +29,5 @@
 	</div>
 
 	<div id="map"></div>
-
-	<!-- <div class="footer-main-text1">
-		<p class="clean global-text contacts-text1">
-			Тел.:  89508693501 - Алексей<br />
-			E-mail:  <a href="mailto:global-proect@mail.ru">global-proect@mail.ru</a>
-		</p>
-		<p class="clean global-text contacts-text2">
-			Россия, г. Ростов-на-Дону<br />
-			ул. Серафимовича д. 58 А, оф. 502<br />
-		</p>
-	</div> -->
 
 </footer>

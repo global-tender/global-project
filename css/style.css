@@ -418,7 +418,8 @@ footer {
 	height: 35%;
 	background: rgba(2, 0, 35, 0.6);
 	z-index: 200;
-	box-shadow: 0px 7px 7px 5px rgba(2, 0, 35, 0.6)
+	box-shadow: 0px 7px 7px 5px rgba(2, 0, 35, 0.6);
+	border-bottom: 1px solid rgba(2, 0, 35, 0.6);
 }
 
 .footer-contact-details {
