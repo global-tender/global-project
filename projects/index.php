@@ -6,7 +6,7 @@
 
 <div class="container">
 
-	<header class="head-menu">
+	<header class="head-menu head-inner-page">
 		<nav>
 			<ul class="menu-ul">
 				<li class="menu-li"><a href="/">Главная</a></li>
@@ -16,8 +16,8 @@
 		</nav>
 	</header>
 
-	<div class="logo-top logo-small">
-		<div class="gk logo-small">Г</div>К&nbsp;&nbsp;Глобал-Проект
+	<div class="logo-small">
+		ГК  Глобал-Проект
 	</div>
 
 	<div class="projects-top">
@@ -65,33 +65,9 @@
 		</div>
 	</div>
 
-	<footer class="footer">
-		<div class="footer-overlay"></div>
-
-		<div class="footer-main-text0">
-
-			<p class="clean global-text logo-footer-text">ГК Глобал-Проект</p>
-
-			<p class="clean global-text footer-menu">
-				<a href="/" title="Проекты">Главная</a>
-			</p>
-
-		</div>
-
-		<div id="map"></div>
-
-		<div class="footer-main-text1">
-			<p class="clean global-text contacts-text1">
-				Тел.:  89508693501 - Алексей<br />
-				E-mail:  <a href="mailto:global-proect@mail.ru">global-proect@mail.ru</a>
-			</p>
-			<p class="clean global-text contacts-text2">
-				Россия, г. Ростов-на-Дону<br />
-				ул. Серафимовича д. 58 А, оф. 502<br />
-			</p>
-		</div>
-
-	</footer>
+	<?
+	include_once("../footer-slide.php");
+	?>
 
 </div>
 
