@@ -11,6 +11,7 @@
 				<?} else { ?>
 					<a href="/" title="Главная">Главная</a>
 				<? }?>
+				<a href="#" title="Задать вопрос" onclick="return showForm();">Задать вопрос</a>
 			</p>
 		</div>
 
@@ -24,6 +25,10 @@
 				<span>Россия, г. Ростов-на-Дону<br />
 				ул. Серафимовича д. 58 А, оф. 502<br /></span>
 			</p>
+		</div>
+
+		<div class="banner">
+			<a href="http://global-tender.ru" title='Учебный центр "Глобал-Тендер"' target="_blank"><img src="/img/banners/seminars_banner-min.png" alt="banner" /></a>
 		</div>
 
 	</div>

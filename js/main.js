@@ -123,3 +123,19 @@ $(document).ready(function() {
 		$(".fittext-slide3").fitText(3, { minFontSize: '14px', maxFontSize: '34px' });
 	}
 });
+
+function showForm()
+{
+	$.fancybox('/ajax.php?question',{type:'ajax',helpers:{overlay:{locked:true}}});
+	return false;
+}
+
+function ajaxFormTry(ajaxForm){
+	$.post(
+		ajaxForm.attr('action'),
+		ajaxForm.serialize(),
+		function(data){
+			$.fancybox.open(data);
+	});
+	return false;
+}
