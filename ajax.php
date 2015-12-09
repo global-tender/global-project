@@ -27,6 +27,34 @@ if (isset($_GET['question']))
 			return false;
 		}
 
+		if (trim($name) == "")
+		{?>
+			<div class="modal-wrap">
+				<br /><br /><br />
+
+				<h2>Не введено имя!</h2>
+
+				<br /><br /><br />
+			</div>
+			
+			<?
+			return false;
+		}
+
+		if (trim($message) == "")
+		{?>
+			<div class="modal-wrap">
+				<br /><br /><br />
+
+				<h2>Не введено сообщение!</h2>
+
+				<br /><br /><br />
+			</div>
+			
+			<?
+			return false;
+		}
+
 		/* ========== */
 		$content = "Вам отправлен вопрос с сайта глобал-проект.рф.\n\nИмя: {$name}\nТелефон: {$phone}\nE-Mail: {$email}\nСообщение:\n\n{$message}\n\n\nСообщение сформировано автоматически.\n";
 		$from_user = '=?UTF-8?B?'.base64_encode('глобал-проект.рф').'?=';
