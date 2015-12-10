@@ -46,8 +46,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
 	<!-- //fonts -->
 
-	<link rel="stylesheet" href="/css/normalize.css">
-
 
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
