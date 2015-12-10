@@ -1,6 +1,7 @@
 # www.robotstxt.org/
 
 # Allow crawling of all content
+Sitemap: http://xn----7sbchn4accyekm3a.xn--p1ai/sitemap.xml
 User-agent: *
 Disallow: 
 Disallow: /404.html
