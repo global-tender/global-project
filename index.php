@@ -17,7 +17,7 @@
 	</header>
 
 	<div class="logo-top">
-		ГК  Глобал-Проект
+		ГК Глобал-Проект
 	</div>
 
 	<div class="full-wrapper">
