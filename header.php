@@ -7,7 +7,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta http-equiv="content-language" content="ru">
 
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
