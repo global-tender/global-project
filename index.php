@@ -26,7 +26,7 @@
 			<div class="index-slide0-overlay"></div>
 			
 			<div class="index-slide0-main-text">
-				<p class="fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И МЕЖЕВАНИЯ</p>
+				<h1 class="fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И МЕЖЕВАНИЯ</h1>
 			</div>
 
 			<?php
@@ -45,11 +45,11 @@
 			<div class="index-slide2-overlay"></div>
 
 			<div class="index-slide2-main-text">
-				<p class="fittext-slide2 clean global-text">
+				<h2 class="fittext-slide2 clean global-text">
 					Разрабатывая проект планировки территории,
 					мы руководствуемся градостроительными нормами РФ, что гарантирует
 					полное соответствие проекта всем существующим требованиям
-				</p>
+				</h2>
 			</div>
 
 			<div class="down-link-container">
