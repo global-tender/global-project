@@ -74,25 +74,6 @@
 	</script>
 	<!-- /Yandex.Metrika counter -->
 
-	<!-- Start of StatCounter Code for Default Guide -->
-	<script type="text/javascript">
-		var sc_project=10625727; 
-		var sc_invisible=1; 
-		var sc_security="263f9d6c"; 
-		var scJsHost = (("https:" == document.location.protocol) ?
-			"https://secure." : "http://www.");
-		document.write("<sc"+"ript type='text/javascript' src='" +
-			scJsHost+
-			"statcounter.com/counter/counter.js'></"+"script>");
-	</script>
-	<noscript><div class="statcounter"><a title="web analytics"
-		href="http://statcounter.com/" target="_blank"><img
-		class="statcounter"
-		src="http://c.statcounter.com/10625727/0/263f9d6c/1/"
-		alt="web analytics"></a></div>
-	</noscript>
-	<!-- End of StatCounter Code for Default Guide -->
-
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
 		(function (d, w, c) {
