@@ -471,47 +471,6 @@ footer {
 }
 
 
-.banner {
-	position: absolute;
-	top: 70px;
-	right: 20px;
-}
-
-.banner img {
-	width: 100%;
-	max-width: 400px;
-}
-
-.banner a {
-	display: block;
-	border: 1px dashed rgba(2, 0, 35, 0.6);
-
-	-webkit-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	transition: all .3s ease;
-}
-
-.banner a:hover {
-	-webkit-transform: scale(1.05, 1.05);
-	-ms-transform: scale(1.05, 1.05);
-	-moz-transform: scale(1.05, 1.05);
-	transform: scale(1.05, 1.05);
-
-	-webkit-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	transition: all .3s ease;
-
-	border: 1px dashed #9D9CAA;
-}
-
-@media only screen and (max-width: 780px ) {
-	.banner img {
-		max-width: 200px;
-	}
-}
-
 @media only screen and (max-width: 600px) {
 
 	.contacts-text1 {
@@ -530,9 +489,6 @@ footer {
 		width: inherit;
 	}
 
-	.banner {
-		display: none;
-	}
 }
 
 @media only screen and (max-width: 520px) {
