@@ -27,10 +27,6 @@
 			</p>
 		</div>
 
-		<div class="banner">
-			<a href="http://global-tender.ru" title='Учебный центр "Глобал-Тендер"' target="_blank"><img src="/img/banners/seminars_banner-min.png" alt="banner" /></a>
-		</div>
-
 	</div>
 
 	<div id="map"></div>
