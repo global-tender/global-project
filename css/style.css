@@ -817,3 +817,17 @@ footer {
 	}
 
 }
+
+
+.google-adsense-footer {
+	position: absolute;
+	float: right;
+	right: 20px;
+	top: 90px;
+}
+
+@media screen and (max-width: 600px) {
+	.google-adsense-footer {
+		display: none;
+	}
+}
