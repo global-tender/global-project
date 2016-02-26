@@ -15,6 +15,18 @@
 			</p>
 		</div>
 
+		<div class="google-adsense-footer">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- footer global-project -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:240px;height:400px"
+			     data-ad-client="ca-pub-9777209289183863"
+			     data-ad-slot="9484015431"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+
 		<div class="footer-contact-details" >
 			<p class="clean global-text contacts-text1">
 				<i class="fa fa-phone fa-1x"></i><span>Тел.:&nbsp;&nbsp; <?if ($is_mobile) {?><a href="tel:+79508693501" itemprop="telephone">+7 950 869 35 01</a><?} else {?><span itemprop="telephone">+7 950 869 35 01</span><?}?> - Алексей</span><br />
