@@ -17,11 +17,12 @@
 
 		<div class="google-adsense-footer">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- глобал-проект.рф -->
+			<!-- глобал-проект -->
 			<ins class="adsbygoogle"
-			     style="display:inline-block;width:240px;height:400px"
+			     style="display:block"
 			     data-ad-client="ca-pub-1502331739186135"
-			     data-ad-slot="1024926201"></ins>
+			     data-ad-slot="6060241400"
+			     data-ad-format="auto"></ins>
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
