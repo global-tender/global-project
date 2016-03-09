@@ -34,6 +34,7 @@
 
 		<!-- fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<?//<link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>?>
 		<!-- //fonts -->
 
 		<link rel="stylesheet" href="/css/normalize.css">
