@@ -28,7 +28,7 @@
 	<?php
 	if ( dirname($_SERVER['PHP_SELF']) == "/" )
 	{?>
-		<script type='text/javascript' src='/js/sliding.js'></script>
+		<!--<script type='text/javascript' src='/js/sliding.js'></script>-->
 	<?}?>
 
 	<!-- Yandex.Map -->

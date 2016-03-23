@@ -41,22 +41,23 @@
 
 		</div>
 
-		<div class="index-slide2">
-			<div class="index-slide2-overlay"></div>
 
-			<div class="index-slide2-main-text">
-				<h2 class="fittext-slide2 clean global-text">
-					Разрабатывая проект планировки территории,
-					мы руководствуемся градостроительными нормами РФ, что гарантирует
-					полное соответствие проекта всем существующим требованиям
-				</h2>
-			</div>
+		<div class="index-slide1">
+			<div class="index-slide1-overlay"></div>
 
-			<div class="down-link-container">
-				<a href="#" class="down-link-slides"><i class="fa fa-angle-double-down"></i></a>
+			<div class="index-slide1-main-text">
+				<p class="fittext-slide1 clean global-text">
+					Грамотность выполнения проекта планировки, позволит:
+				</p>
+				<ul>
+					<li class="fittext-slide1">Избежать риски на дальнейшей стадии проектирования</li>
+					<li class="fittext-slide1">Снизить будущие затраты по расположению линейных объектов</li>
+					<li class="fittext-slide1">Увеличить полезную площадь на 20-25%</li>
+				</ul>
 			</div>
 
 		</div>
+
 
 		<div class="index-slide3">
 			<div class="index-slide3-overlay"></div>
@@ -65,10 +66,6 @@
 				<p class="fittext-slide3 clean global-text">
 					Проект планировки территории — основа для формирования градостроительных планов земельных участков, необходимых для получения разрешения на строительство, также содержит основные показатели, <b>необходимые для определения инвестиционной привлекательности территории</b> – численность населения и возможные объёмы нового строительства (жилищного, делового, социального, культурно-бытового, транспортного, инженерного).
 				</p>
-			</div>
-
-			<div class="down-link-container">
-				<a href="#" class="down-link-slides"><i class="fa fa-angle-double-down"></i></a>
 			</div>
 
 		</div>
