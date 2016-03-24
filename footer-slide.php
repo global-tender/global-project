@@ -15,18 +15,6 @@
 			</p>
 		</div>
 
-		<div class="google-adsense-footer">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- глобал-проект -->
-			<ins class="adsbygoogle"
-			     style="display:block"
-			     data-ad-client="ca-pub-1502331739186135"
-			     data-ad-slot="6060241400"
-			     data-ad-format="auto"></ins>
-			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
 
 		<div class="footer-contact-details" >
 			<p class="clean global-text contacts-text1">
