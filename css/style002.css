@@ -247,13 +247,13 @@ a {
 .index-slide0 {
 	height: 100vh;
 	background-position: center;
-	background: url("/img/video3-bg.jpg") no-repeat center center /cover;;
+	background: url("/img/video-bg3-min.png") no-repeat center center /cover;;
 }
 
 .index-slide0-overlay {
 	position: absolute;
 	height: 100%;
-	background: rgba(26, 111, 111, 0.1);
+	/*background: rgba(26, 111, 111, 0.1); */
 	width: 100%;
 }
 
