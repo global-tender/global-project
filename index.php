@@ -29,14 +29,6 @@
 				<h1 class="fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И МЕЖЕВАНИЯ</h1>
 			</div>
 
-			<?php
-			/* Do not show background video on mobile devices */
-			if(!$is_mobile)
-			{
-				echo '<video autoplay="" loop="" muted="" src="/img/video3.webm" class="video-bg"></video>';
-			}
-			?>
-
 			<a href="#" class="down-link"><i class="fa fa-angle-double-down"></i></a>
 
 		</div>
