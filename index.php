@@ -26,7 +26,7 @@
 			<div class="index-slide0-overlay"></div>
 			
 			<div class="index-slide0-main-text">
-				<h1 class="fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И МЕЖЕВАНИЯ</h1>
+				<h1 class="fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И ПРОЕКТ МЕЖЕВАНИЯ</h1>
 			</div>
 
 			<a href="#" class="down-link"><i class="fa fa-angle-double-down"></i></a>
