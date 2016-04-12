@@ -2,12 +2,10 @@
 	<a href="#" id="toTop" title="Вверх страницы"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 	<script type="text/javascript" src="/js/move-top.js"></script>
 	<script type="text/javascript" src="/js/easing.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/0.9.0/jquery.mask.min.js"></script>
 
@@ -24,12 +22,6 @@
 		<link href='/js/highslide/highslide.css' rel='stylesheet'>
 	<?}?>
 
-
-	<?php
-	if ( dirname($_SERVER['PHP_SELF']) == "/" )
-	{?>
-		<!--<script type='text/javascript' src='/js/sliding.js'></script>-->
-	<?}?>
 
 	<!-- Yandex.Map -->
 	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
