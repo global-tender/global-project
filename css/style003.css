@@ -863,3 +863,7 @@ footer {
 	}
 
 }
+
+.index-noslide {
+	display: none;
+}

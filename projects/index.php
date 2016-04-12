@@ -65,6 +65,11 @@
 		</div>
 	</div>
 
+	<div class="index-noslide">
+		<h1>Список проектов планировки территории</h1>
+		<h2>Разработанные проекты</h2>
+	</div>
+
 	<?
 	include_once("../footer-slide.php");
 	?>
