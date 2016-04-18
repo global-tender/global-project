@@ -18,8 +18,6 @@
 
 		<meta name="keywords" content="дизайн участка, проект планировки, проект территория, проект участка, межевание территории, земельный проект, стоимость планировки, глобал-проект, план развития, как спланировать участок, застройка">
 
-		<link rel="canonical" href="http://xn----7sbchn4accyekm3a.xn--p1ai/">
-		
 		<meta property="og:title" content="Глобал-Проект.РФ - Разработка инженерных проектов">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="http://xn----7sbchn4accyekm3a.xn--p1ai/">
