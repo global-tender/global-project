@@ -80,11 +80,13 @@
 
 			<div class="index-slide1-main-text">
 				<p class="fittext-slide1 clean global-text">
-					Грамотность выполнения проекта планировки, позволит:
+					Выполнения проекта планировки территории у нас, позволит:
 				</p>
 				<ul>
-					<li class="fittext-slide1">Снизить будущие затраты по расположению линейных объектов</li>
-					<li class="fittext-slide1">Увеличить полезную площадь на 20-25%</li>
+					<li class="fittext-slide1">Своевременно согласовать проект в администрации</li>
+					<li class="fittext-slide1">Увеличить полезную площадь</li>
+					<li class="fittext-slide1">Снизить затраты на строительстве</li>
+					<li class="fittext-slide1">Сделать проект современным и привлекательным</li>
 				</ul>
 			</div>
 
