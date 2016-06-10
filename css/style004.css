@@ -654,8 +654,8 @@ footer {
 	bottom: 2.5%;
 	left: 50%;
 	margin-left: -16px;
-	color: #fff;
-	text-shadow: 1px 1px 1px #0600A0;
+	color: #ff0000;
+	text-shadow: 1px 1px 1px #000;
 	text-decoration: none;
 	font-size: 50px;
 }
