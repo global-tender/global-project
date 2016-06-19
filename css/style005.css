@@ -96,6 +96,20 @@ a {
 	transition: all .3s ease;
 }
 
+.head-menu .menu-ul .menu-li.ask-question a:hover {
+	color: #D4FF00;
+	padding-top: 5px;
+	-webkit-transform: scale(1.05, 1.05);
+	-ms-transform: scale(1.05, 1.05);
+	-moz-transform: scale(1.05, 1.05);
+	transform: scale(1.05, 1.05);
+
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
 .head-menu a {
 	color: #fff;
 	text-shadow: 1px 1px 1px #0600A0;
