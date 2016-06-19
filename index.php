@@ -12,7 +12,7 @@
 				<li class="menu-li"><a href="/">Главная</a></li>
 				<li class="menu-li"><a href="#" class="projects-menu">Проекты</a></li>
 				<li class="menu-li"><a href="#" class="contacts">Контакты</a></li>
-				<li class="menu-li"><a href="#" class="ask-question" title="Задать вопрос" onclick="return showForm();">Задать вопрос</a></li>
+				<li class="menu-li ask-question"><a href="#" title="Задать вопрос" onclick="return showForm();">Задать вопрос</a></li>
 			</ul>
 		</nav>
 	</header>
