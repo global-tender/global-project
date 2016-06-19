@@ -96,10 +96,50 @@
 		<div class="index-slide3">
 			<div class="index-slide3-overlay"></div>
 
-			<div class="index-slide3-main-text">
-				<p class="fittext-slide3 clean global-text">
-					Проект планировки территории — основа для формирования градостроительных планов земельных участков, необходимых для получения разрешения на строительство, также содержит основные показатели, <b>необходимые для определения инвестиционной привлекательности территории</b> – численность населения и возможные объёмы нового строительства (жилищного, делового, социального, культурно-бытового, транспортного, инженерного).
-				</p>
+			<div class="projects-wrapper">
+				<div class="projects">
+					<div class="projects-h1"><h1 class="clean">Проекты</h1></div>
+
+					<div class="projects-imgs highslide-gallery">
+						<a class="highslide project-img" href="/img/projects/project_009.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_009.jpg" alt="Пример проекта" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_008.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_008.jpg" alt="Пример проекта" />
+						</a>
+
+						<a class="highslide project-img" href="/img/projects/project_000.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_000.jpg" alt="Пример проекта" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_001.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_001.jpg" alt="Пример проекта" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_002.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_002.jpg" alt="Пример проекта" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_003.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_003.jpg" alt="Пример проекта" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_004.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_004.jpg" alt="Пример проекта" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_005.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_005.jpg" alt="Пример проекта" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_006.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_006.jpg" alt="Пример проекта" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_007.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_007.jpg" alt="Пример проекта" />
+						</a>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="index-noslide">
+				<h1>Список проектов планировки территории</h1>
+				<h2>Разработанные проекты</h2>
 			</div>
 
 		</div>

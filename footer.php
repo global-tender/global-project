@@ -14,13 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="/js/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
 
 
-	<?php
-	if ( dirname($_SERVER['PHP_SELF']) != "/" )
-	{?>
-		<script type='text/javascript' src='/js/highslide/highslide-with-gallery.packed.js'></script>
-		<script type='text/javascript' src='/js/highslide/highslide.config.js'></script>
-		<link href='/js/highslide/highslide.css' rel='stylesheet'>
-	<?}?>
+	<script type='text/javascript' src='/js/highslide/highslide-with-gallery.packed.js'></script>
+	<script type='text/javascript' src='/js/highslide/highslide.config.js'></script>
+	<link href='/js/highslide/highslide.css' rel='stylesheet'>
 
 
 	<!-- Yandex.Map -->
