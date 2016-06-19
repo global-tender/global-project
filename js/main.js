@@ -29,7 +29,7 @@ $(document).ready(function(){
 var contacts_link = (function(){
 	$(document).on('click', '.contacts', function(){
 		$('html, body').animate({
-			scrollTop: $('.footer').offset().top
+			scrollTop: $('.footer').offset().top+1
 		}, 1000);
 		return false;
 	});
@@ -40,7 +40,7 @@ var contacts_link = (function(){
 var contacts_link = (function(){
 	$(document).on('click', '.projects-menu', function(){
 		$('html, body').animate({
-			scrollTop: $('.projects-wrapper').offset().top
+			scrollTop: $('.projects-wrapper').offset().top+1
 		}, 1000);
 		return false;
 	});
