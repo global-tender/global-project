@@ -371,7 +371,6 @@ a {
 }
 
 .index-slide3 {
-	height: 80vh;
 	background: url("/img/cover8.jpg") no-repeat center center /cover;
 	background-position: center;
 	position: relative;
@@ -466,47 +465,6 @@ footer {
 	font-size: 26px;
 }
 
-.footer-menu {
-	position: absolute;
-	right: 20px;
-	top: 30px;
-}
-
-.footer-menu a:hover {
-	color: #B7B7B7;
-	text-decoration: none;
-	border-bottom: none;
-	-webkit-transform: scale(1.05, 1.05);
-	-ms-transform: scale(1.05, 1.05);
-	-moz-transform: scale(1.05, 1.05);
-	transform: scale(1.05, 1.05);
-
-	-webkit-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	transition: all .3s ease;
-}
-
-.footer-menu a {
-	color: #fff;
-	text-shadow: 1px 1px 1px #0600A0;
-
-	text-decoration: none;
-	border-bottom: 1px dashed #9D9CAA;
-	padding-bottom: 2px;
-	font-weight: 400;
-	font-size: 18px;
-
-	display: block;
-	float: right;
-	margin-left: 25px;
-
-	-webkit-transition: all .1s ease;
-	-ms-transition: all .1s ease;
-	-moz-transition: all .1s ease;
-	transition: all .1s ease;
-}
-
 .contacts-text1 {
 	font-size: 18px;
 }
@@ -541,19 +499,6 @@ footer {
 
 	.footer-main-text0 {
 		height: 45%;
-	}
-
-	.footer-menu {
-		position: inherit;
-		display: block;
-		right: inherit;
-	}
-
-	.footer-menu a {
-		margin-left: 0px;
-		margin-right: 25px;
-		float: none;
-		display: inline;
 	}
 
 	.footer-contact-details {
