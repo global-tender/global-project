@@ -4,15 +4,6 @@
 
 		<div>
 			<p class="clean global-text logo-footer-text" itemprop="name">ГК Глобал-Проект</p>
-
-			<p class="clean global-text footer-menu">
-				<? if ( dirname($_SERVER['PHP_SELF']) == "/" ) { ?>
-					<a href="/projects/" title="Проекты">Проекты</a>
-				<?} else { ?>
-					<a href="/" title="Главная">Главная</a>
-				<? }?>
-				<a href="#" title="Задать вопрос" onclick="return showForm();">Задать вопрос</a>
-			</p>
 		</div>
 
 

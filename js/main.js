@@ -8,15 +8,6 @@ var down_link = (function(){
 	});
 })();
 
-/* Link-arrow to next slides */
-/*var down_link_container = (function(){
-	$(document).on('click', '.down-link-container', function(){
-		$('html, body').animate({
-			scrollTop: $(this).parent().offset().top + $(window).height()
-		}, 500);
-		return false;
-	});
-})();*/
 
 $(document).ready(function(){
 	$('.down-link, .text-branding, .head-menu').hover(function(){
@@ -30,20 +21,6 @@ $(document).ready(function(){
 		}, function() {
 			$('.down-link').animate({"bottom":"2%"}, 'slow');
 	});
-
-	/*$('.down-link-container').hover(function(){
-			$('.down-link-container').animate({"margin-bottom":"-12px"}, 'slow');
-		}, function(){
-			$('.down-link-container').animate({"margin-bottom":"-12px"}, 'slow');
-
-	});
-
-	$('.down-link-container').hover(function(){
-			$('.down-link-container').animate({"margin-bottom":"12px"}, 'slow');
-		}, function(){
-			$('.down-link-container').animate({"margin-bottom":"12px"}, 'slow');
-			
-	});*/
 });
 
 /* // Link-arrow to next slides */
@@ -57,7 +34,18 @@ var contacts_link = (function(){
 		return false;
 	});
 })();
-/* //Scroll to contacts */
+/* //Scroll to Contacts */
+
+/* Scroll to Projects */
+var contacts_link = (function(){
+	$(document).on('click', '.projects-menu', function(){
+		$('html, body').animate({
+			scrollTop: $('.projects-wrapper').offset().top
+		}, 1000);
+		return false;
+	});
+})();
+/* //Scroll to Projects */
 
 /* Disable global scroll above some DIV */
 $(document).ready(function () {
