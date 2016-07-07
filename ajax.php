@@ -60,14 +60,14 @@ if (isset($_GET['question']))
 		$from_user = '=?UTF-8?B?'.base64_encode('глобал-проект.рф').'?=';
 		$subject = '=?UTF-8?B?'.base64_encode('Задан вопрос на сайте глобал-проект.рф').'?=';
 
-		$headers = 'From: '.$from_user.' <global-proect@ihptru.net>' . "\r\n" .
-		'Reply-To: global-proect@ihptru.net' . "\r\n" .
+		$headers = 'From: '.$from_user.' <info@ihptru.ptpgo.com>' . "\r\n" .
+		'Reply-To: info@ihptru.ptpgo.com' . "\r\n" .
 		'BCC: ihptru@gmail.com' . "\r\n" .
 		'MIME-Version: 1.0' . "\r\n" .
 		'Content-type: text/plain; charset=utf-8' . "\r\n" .
-		'Return-Path: global-proect@ihptru.net' . "\r\n";
+		'Return-Path: info@ihptru.ptpgo.com.' . "\r\n";
 
-		$params = "-fglobal-proect@ihptru.net";
+		$params = "-finfo@ihptru.ptpgo.com";
 
 		mail("global-proect@mail.ru", $subject, $content, $headers, $params);
 
@@ -77,13 +77,13 @@ if (isset($_GET['question']))
 		$from_user = '=?UTF-8?B?'.base64_encode('глобал-проект.рф').'?=';
 		$subject = '=?UTF-8?B?'.base64_encode('Копия: Задан вопрос на сайте глобал-проект.рф').'?=';
 
-		$headers = 'From: '.$from_user.' <global-proect@ihptru.net>' . "\r\n" .
-		'Reply-To: global-proect@ihptru.net' . "\r\n" .
+		$headers = 'From: '.$from_user.' <info@ihptru.ptpgo.com>' . "\r\n" .
+		'Reply-To: info@ihptru.ptpgo.com' . "\r\n" .
 		'MIME-Version: 1.0' . "\r\n" .
 		'Content-type: text/plain; charset=utf-8' . "\r\n" .
-		'Return-Path: global-proect@ihptru.net' . "\r\n";
+		'Return-Path: info@ihptru.ptpgo.com' . "\r\n";
 
-		$params = "-fglobal-proect@ihptru.net";
+		$params = "-finfo@ihptru.ptpgo.com";
 
 		mail($email, $subject, $content, $headers, $params);
 		/* ========== */
