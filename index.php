@@ -17,7 +17,8 @@
 	</header>
 
 	<div class="logo-top">
-		ГК Глобал-Проект
+		ГК Глобал-Проект<br />
+		+7 950 869 35 01
 	</div>
 
 	<div class="full-wrapper">
