@@ -140,6 +140,7 @@ a {
 	color: #fff;
 	font-size: 36px;
 	z-index: 5;
+	text-shadow: 1px 1px #000;
 
 	-webkit-transform: scaleY(1.5);
 	-ms-transform: scaleY(1.5);
@@ -150,32 +151,21 @@ a {
 	overflow: hidden;
 }
 
-.logo-small {
-	font-size: 22px;
-	top: 40px;
-
-	letter-spacing: 0.3px;
-	font-weight: 700;
+.company-top {
 	position: absolute;
-	left: 18px;
 	color: #fff;
-	z-index: 5;
+	text-shadow: 1px 1px #000;
+	font-size: 24px;
+	left: 10px;
+	top: 10px;
 
-	-webkit-transform: scaleY(1.5);
-	-ms-transform: scaleY(1.5);
-	-moz-transform: scaleY(1.5);
-	transform: scaleY(1.5);
-
-	white-space: nowrap;
-	overflow: hidden;
+	-webkit-transform: scaleY(1.2);
+	-ms-transform: scaleY(1.2);
+	-moz-transform: scaleY(1.2);
+	transform: scaleY(1.2);
 }
 
 @media only screen and (max-width : 670px) {
-	.logo-small {
-		left: inherit;
-		right: 50px;
-		top: 5px;
-	}
 
 	.head-menu.head-inner-page {
 		top: 55px;
@@ -207,12 +197,6 @@ a {
 	.logo-top {
 		top: 115px;
 		font-size: 22px;
-		right: inherit;
-		left: 18px;
-	}
-
-	.logo-small {
-		top: 40px;
 		right: inherit;
 		left: 18px;
 	}
@@ -260,12 +244,6 @@ a {
 		font-size: 18px;
 	}
 
-	.logo-small {
-		top: 46px;
-		font-size: 18px;
-		right: inherit;
-		left: 18px;
-	}
 }
 
 

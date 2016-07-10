@@ -16,9 +16,12 @@
 		</nav>
 	</header>
 
+	<div class="company-top">
+		ГК Глобал-Проект
+	</div>
+
 	<div class="logo-top">
-		ГК Глобал-Проект<br />
-		+7 950 869 35 01
+		<?if ($is_mobile) {?><a href="tel:+79508693501">+7 950 869 35 01</a><?} else {?>+7 950 869 35 01<?}?>
 	</div>
 
 	<div class="full-wrapper">
