@@ -81,7 +81,7 @@
 		</div>
 
 
-		<div class="index-slide1">
+		<div class="index-slide1 index-noslide">
 			<div class="index-slide1-overlay"></div>
 
 			<div class="index-slide1-main-text">
