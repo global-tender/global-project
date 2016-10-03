@@ -603,7 +603,7 @@ footer {
 	bottom: 2.5%;
 	left: 50%;
 	margin-left: -16px;
-	color: #ff0000;
+	color: rgba(245, 64, 30, 0.9);
 	text-shadow: 1px 1px 1px #000;
 	text-decoration: none;
 	font-size: 50px;
@@ -825,33 +825,34 @@ footer {
 }
 
 .order_call_button a {
-  position: relative;
-  padding: 10px 20px;
-  border: double 2px rgb(0, 196, 255);
-  -webkit-border-radius: 14px;
-  -moz-border-radius: 14px;
-  border-radius: 14px;
-  overflow: hidden;
-  z-index: 1;
-  vertical-align: middle;
-  text-decoration: none;
-  margin: 0 auto;
-  text-align: center;
-  display: table;
+	color: #fff;
+	position: relative;
+	padding: 10px 20px;
+	border: double 2px rgba(245, 64, 30, 0.9);
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	overflow: hidden;
+	z-index: 1;
+	vertical-align: middle;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	display: table;
 
-  transition: .5s all;
-  -webkit-transition: 1.2s all;
-  -o-transition: 1.2s all;
-  -ms-transition: 1.2s all;
-  -moz-transition: 1.2s all;
+	transition: .5s all;
+	-webkit-transition: 1.2s all;
+	-o-transition: 1.2s all;
+	-ms-transition: 1.2s all;
+	-moz-transition: 1.2s all;
 }
 
 .order_call_button a:hover{
-  color: #ffffff;
-  background: rgba(1, 158, 206, 0.9);
-  transition: .5s all;
-  -webkit-transition: 1.2s all;
-  -o-transition: 1.2s all;
-  -ms-transition: 1.2s all;
-  -moz-transition: 1.2s all;
+	color: #ffffff;
+	background: rgba(245, 64, 30, 0.9);
+	transition: .5s all;
+	-webkit-transition: 1.2s all;
+	-o-transition: 1.2s all;
+	-ms-transition: 1.2s all;
+	-moz-transition: 1.2s all;
 }
