@@ -118,6 +118,12 @@ function showForm()
 	return false;
 }
 
+function orderCall()
+{
+	$.fancybox('/ajax.php?order_call',{type:'ajax',helpers:{overlay:{locked:true}}});
+	return false;
+}
+
 function ajaxFormTry(ajaxForm){
 	$.post(
 		ajaxForm.attr('action'),
