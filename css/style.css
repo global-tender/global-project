@@ -754,18 +754,24 @@ footer {
 	-moz-border-radius:5px;
 	-o-border-radius:5px;
 	-ms-border-radius:5px;
-	border: 1px solid #99cc33;
+	border: 1px solid rgba(245, 64, 30, 0.9);
 	background:none;
+
+	transition: 1.2s all;
+	-webkit-transition: 1.2s all;
+	-o-transition: 1.2s all;
+	-ms-transition: 1.2s all;
+	-moz-transition: 1.2s all;
 }
 .question_form input[type=submit]:hover {
-	background: #99cc33;
+	color: #ffffff;
+	background: rgba(245, 64, 30, 0.9);
 	border: 1px solid #fff;
-	color:#fff;
-	transition: .5s all;
-	-webkit-transition: .5s all;
-	-o-transition: .5s all;
-	-ms-transition: .5s all;
-	-moz-transition: .5s all;	
+	transition: 1.2s all;
+	-webkit-transition: 1.2s all;
+	-o-transition: 1.2s all;
+	-ms-transition: 1.2s all;
+	-moz-transition: 1.2s all;
 }
 .question_form input[type="email"] {
 	width: 300px;
@@ -840,7 +846,7 @@ footer {
 	text-align: center;
 	display: table;
 
-	transition: .5s all;
+	transition: 1.2s all;
 	-webkit-transition: 1.2s all;
 	-o-transition: 1.2s all;
 	-ms-transition: 1.2s all;
@@ -850,7 +856,7 @@ footer {
 .order_call_button a:hover{
 	color: #ffffff;
 	background: rgba(245, 64, 30, 0.9);
-	transition: .5s all;
+	transition: 1.2s all;
 	-webkit-transition: 1.2s all;
 	-o-transition: 1.2s all;
 	-ms-transition: 1.2s all;
