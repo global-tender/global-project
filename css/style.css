@@ -817,3 +817,41 @@ footer {
 .index-noslide {
 	display: none;
 }
+
+.order_call_button {
+	top: 45%;
+	text-align: center;
+	position: relative;
+}
+
+.order_call_button a {
+  position: relative;
+  padding: 10px 20px;
+  border: double 2px rgb(0, 196, 255);
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  overflow: hidden;
+  z-index: 1;
+  vertical-align: middle;
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+
+  transition: .5s all;
+  -webkit-transition: 1.2s all;
+  -o-transition: 1.2s all;
+  -ms-transition: 1.2s all;
+  -moz-transition: 1.2s all;
+}
+
+.order_call_button a:hover{
+  color: #ffffff;
+  background: rgba(1, 158, 206, 0.9);
+  transition: .5s all;
+  -webkit-transition: 1.2s all;
+  -o-transition: 1.2s all;
+  -ms-transition: 1.2s all;
+  -moz-transition: 1.2s all;
+}

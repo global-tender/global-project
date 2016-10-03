@@ -33,6 +33,10 @@
 				<h1 class="fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И ПРОЕКТ МЕЖЕВАНИЯ</h1>
 			</div>
 
+			<div class="order_call_button">
+				<a href="#" onclick="return orderCall();">Оставьте заявку</a>
+			</div>
+
 			<a href="#" class="down-link"><i class="fa fa-angle-double-down"></i></a>
 
 		</div>
