@@ -842,11 +842,10 @@ footer {
 	color: #ffffff;
 	background: rgb(255, 40, 0);
 	border: double 2px rgb(255, 40, 0);
-	transition: 1.2s all;
-	-webkit-transition: 1.2s all;
-	-o-transition: 1.2s all;
-	-ms-transition: 1.2s all;
-	-moz-transition: 1.2s all;
+	-webkit-transition: all 1.2s ease;
+	-ms-transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	transition: all 1.2s ease;
 }
 
 @media only screen and (max-width: 600px) {
