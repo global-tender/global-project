@@ -84,20 +84,6 @@ a {
 }
 
 .head-menu .menu-ul .menu-li a:hover {
-	color: #B7B7B7;
-	-webkit-transform: scale(1.05, 1.05);
-	-ms-transform: scale(1.05, 1.05);
-	-moz-transform: scale(1.05, 1.05);
-	transform: scale(1.05, 1.05);
-
-	-webkit-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	-moz-transition: all .3s ease;
-	transition: all .3s ease;
-}
-
-.head-menu .menu-ul .menu-li .ask-question a:hover {
-	color: #D4FF00 !important;
 	-webkit-transform: scale(1.01, 1.01);
 	-ms-transform: scale(1.01, 1.01);
 	-moz-transform: scale(1.01, 1.01);
@@ -124,11 +110,6 @@ a {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 5px;
-	color: #FFFFFF !important;
-}
-
-.ask-question a {
-	color: #D4FF00;
 }
 
 .logo-top {
