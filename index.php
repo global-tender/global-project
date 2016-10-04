@@ -34,7 +34,7 @@
 			</div>
 
 			<div class="order_call_button">
-				<a href="#" onclick="return orderCall();">Оставьте заявку</a>
+				<a href="#" onclick="return orderCall();" title="Оставьте заявку">Оставьте заявку</a>
 			</div>
 
 			<a href="#" class="down-link"><i class="fa fa-angle-double-down"></i></a>
@@ -145,6 +145,10 @@
 					</div>
 
 				</div>
+			</div>
+
+			<div class="order_call_button order_project_button">
+				<a href="#" onclick="return orderCall();" title="Заказать проект">Заказать проект</a>
 			</div>
 
 		</div>
