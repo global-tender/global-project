@@ -74,6 +74,7 @@ a {
 
 .head-menu .menu-ul .menu-li a {
 	-webkit-transition: all .1s ease;
+	-o-transition: all .1s ease;
 	-ms-transition: all .1s ease;
 	-moz-transition: all .1s ease;
 	transition: all .1s ease;
@@ -90,6 +91,7 @@ a {
 	transform: scale(1.01, 1.01);
 
 	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
 	-ms-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease;
@@ -745,16 +747,22 @@ footer {
 	-ms-border-radius:5px;
 	border: 1px solid rgb(255, 106, 0);
 	background:none;
+
+	-webkit-transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+	-ms-transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	transition: all 1.2s ease;
 }
 .question_form input[type=submit]:hover {
 	color: #ffffff;
 	background: rgb(255, 106, 0);
 	border: 1px solid #fff;
-	transition: 1.2s all;
-	-webkit-transition: 1.2s all;
-	-o-transition: 1.2s all;
-	-ms-transition: 1.2s all;
-	-moz-transition: 1.2s all;
+	-webkit-transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+	-ms-transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	transition: all 1.2s ease;
 }
 .question_form input[type="email"] {
 	width: 300px;
@@ -836,13 +844,21 @@ footer {
 	display: table;
 	background: rgb(255, 106, 0);
 	text-shadow: 1px 1px 1px #000;
+
+	-webkit-transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+	-ms-transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	transition: all 1.2s ease;
 }
 
 .order_call_button a:hover{
 	color: #ffffff;
 	background: rgb(255, 40, 0);
 	border: double 2px rgb(255, 40, 0);
+
 	-webkit-transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
 	-ms-transition: all 1.2s ease;
 	-moz-transition: all 1.2s ease;
 	transition: all 1.2s ease;
