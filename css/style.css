@@ -758,12 +758,6 @@ footer {
 	-ms-border-radius:5px;
 	border: 1px solid rgba(245, 64, 30, 0.9);
 	background:none;
-
-	transition: 1.2s all;
-	-webkit-transition: 1.2s all;
-	-o-transition: 1.2s all;
-	-ms-transition: 1.2s all;
-	-moz-transition: 1.2s all;
 }
 .question_form input[type=submit]:hover {
 	color: #ffffff;
@@ -833,10 +827,11 @@ footer {
 }
 
 .order_call_button a {
+	font-size: 18px;
 	color: #fff;
 	position: relative;
 	padding: 10px 20px;
-	border: double 2px rgba(245, 64, 30, 0.9);
+	border: double 2px #fff;
 	-webkit-border-radius: 14px;
 	-moz-border-radius: 14px;
 	border-radius: 14px;
@@ -847,7 +842,12 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 	display: table;
+	background: rgb(245, 64, 30);
+}
 
+.order_call_button a:hover{
+	color: #ffffff;
+	background: rgb(255, 40, 0);
 	transition: 1.2s all;
 	-webkit-transition: 1.2s all;
 	-o-transition: 1.2s all;
@@ -855,12 +855,8 @@ footer {
 	-moz-transition: 1.2s all;
 }
 
-.order_call_button a:hover{
-	color: #ffffff;
-	background: rgba(245, 64, 30, 0.9);
-	transition: 1.2s all;
-	-webkit-transition: 1.2s all;
-	-o-transition: 1.2s all;
-	-ms-transition: 1.2s all;
-	-moz-transition: 1.2s all;
+@media only screen and (max-width: 600px) {
+	.order_call_button a {
+		font-size: 16px;
+	}
 }
