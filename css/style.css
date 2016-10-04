@@ -151,6 +151,11 @@ a {
 	overflow: hidden;
 }
 
+.logo-top a {
+	text-decoration: none;
+	color: rgb(255, 106, 0);
+}
+
 .company-top {
 	position: absolute;
 	color: #fff;
@@ -603,7 +608,7 @@ footer {
 	bottom: 2.5%;
 	left: 50%;
 	margin-left: -16px;
-	color: rgba(245, 64, 30, 0.9);
+	color: rgb(255, 106, 0);
 	text-shadow: 1px 1px 1px #000;
 	text-decoration: none;
 	font-size: 50px;
@@ -756,12 +761,12 @@ footer {
 	-moz-border-radius:5px;
 	-o-border-radius:5px;
 	-ms-border-radius:5px;
-	border: 1px solid rgba(245, 64, 30, 0.9);
+	border: 1px solid rgb(255, 106, 0);
 	background:none;
 }
 .question_form input[type=submit]:hover {
 	color: #ffffff;
-	background: rgba(245, 64, 30, 0.9);
+	background: rgb(255, 106, 0);
 	border: 1px solid #fff;
 	transition: 1.2s all;
 	-webkit-transition: 1.2s all;
@@ -842,12 +847,13 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 	display: table;
-	background: rgb(245, 64, 30);
+	background: rgb(255, 106, 0);
 }
 
 .order_call_button a:hover{
 	color: #ffffff;
 	background: rgb(255, 40, 0);
+	border: double 2px rgb(255, 40, 0);
 	transition: 1.2s all;
 	-webkit-transition: 1.2s all;
 	-o-transition: 1.2s all;
