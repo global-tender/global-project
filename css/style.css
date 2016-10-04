@@ -98,10 +98,10 @@ a {
 
 .head-menu .menu-ul .menu-li .ask-question a:hover {
 	color: #D4FF00 !important;
-	-webkit-transform: scale(1.05, 1.05);
-	-ms-transform: scale(1.05, 1.05);
-	-moz-transform: scale(1.05, 1.05);
-	transform: scale(1.05, 1.05);
+	-webkit-transform: scale(1.01, 1.01);
+	-ms-transform: scale(1.01, 1.01);
+	-moz-transform: scale(1.01, 1.01);
+	transform: scale(1.01, 1.01);
 
 	-webkit-transition: all .3s ease;
 	-ms-transition: all .3s ease;
@@ -119,12 +119,12 @@ a {
 }
 
 .ask-question {
-	background: rgba(66, 76, 115, 0.5);
-	border-radius: 20px;
+	background: rgba(0, 22, 109, 0.61);
+	border-radius: 6px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 5px;
-	color: #D4FF00 !important;
+	color: #FFFFFF !important;
 }
 
 .ask-question a {
@@ -752,7 +752,8 @@ footer {
 }
 .question_form input[type=submit] {
 	color: #222;
-	padding: 13px 43px;
+	padding: 13px 35px;
+	padding-top: 11px;
 	font-size: 16px;
 	cursor: pointer;
 	font-weight: 500;
@@ -836,6 +837,7 @@ footer {
 	color: #fff;
 	position: relative;
 	padding: 10px 20px;
+	padding-top: 8px;
 	border: double 2px #fff;
 	-webkit-border-radius: 14px;
 	-moz-border-radius: 14px;
@@ -848,6 +850,7 @@ footer {
 	text-align: center;
 	display: table;
 	background: rgb(255, 106, 0);
+	text-shadow: 1px 1px 1px #000;
 }
 
 .order_call_button a:hover{
