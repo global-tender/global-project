@@ -285,6 +285,7 @@ a {
 	font-size: 18px;
 	padding-left: 15px;
 	padding-right: 15px;
+	display: inline;
 }
 
 @media screen and (max-width: 500px) {
