@@ -31,6 +31,11 @@
 			
 			<div class="index-slide0-main-text">
 				<h1 class="fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И ПРОЕКТ МЕЖЕВАНИЯ</h1>
+
+				<div class="index-slide0-under-main-text">
+					<h2>Градостроительный план</h2>
+					<h2>Генеральный план</h2>
+				</div>
 			</div>
 
 			<div class="order_call_button">

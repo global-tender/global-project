@@ -232,6 +232,10 @@ a {
 		font-size: 18px;
 	}
 
+	.company-top {
+		font-size: 20px;
+	}
+
 }
 
 
@@ -263,6 +267,35 @@ a {
 	transform: translateY(-50%);
 	z-index: 5;
 	text-shadow: 1px 1px 1px #000;
+}
+
+.index-slide0-under-main-text {
+	text-align: center;
+	position: relative;
+	display: block;
+	left: 0;
+	right: 0;
+}
+
+.index-slide0-under-main-text h2 {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@media screen and (max-width: 500px) {
+	.index-slide0-under-main-text h2 {
+		display: block;
+		padding-top: 2px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-bottom: 2px;
+		font-size: 16px;
+	}
 }
 
 .text-branding {
