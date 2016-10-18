@@ -300,8 +300,12 @@ a {
 		padding-top: 2px;
 		margin-top: 0px;
 		margin-bottom: 0px;
-		padding-bottom: 2px;
 		font-size: 18px;
+	}
+
+	.index-slide0-under-main-text {
+		margin-bottom: -20px;
+		margin-top: -10px;
 	}
 }
 
