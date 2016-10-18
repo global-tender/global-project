@@ -282,20 +282,26 @@ a {
 	text-shadow: 1px 1px 1px #000;
 	font-weight: 500;
 	letter-spacing: 0.4px;
-	font-size: 18px;
+	font-size: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
 	display: inline;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 740px) {
+	.index-slide0-under-main-text h2 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 620px) {
 	.index-slide0-under-main-text h2 {
 		display: block;
 		padding-top: 2px;
 		margin-top: 0px;
 		margin-bottom: 0px;
 		padding-bottom: 2px;
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 
