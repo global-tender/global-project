@@ -35,11 +35,12 @@
 				<div class="index-slide0-under-main-text">
 					<h2>Градостроительный план</h2>
 					<h2>Генеральный план</h2>
+					<h2>Линейный объект</h2>
 				</div>
 			</div>
 
 			<div class="order_call_button">
-				<a href="#" onclick="return orderCall();" title="Оставьте заявку">Оставьте заявку</a>
+				<a href="#" onclick="return orderCall();" title="Рассчитать стоимость">Рассчитать стоимость</a>
 			</div>
 
 			<a href="#" class="down-link"><i class="fa fa-angle-double-down"></i></a>
