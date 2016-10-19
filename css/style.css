@@ -670,14 +670,14 @@ footer {
 	width: 100%;
 }
 
-.projects-h1 {
+.projects-h2 {
 	color: #111;
 	top: 28px;
 	padding: 15px;
 	border-radius: 10px;
 }
 
-.projects-h1 h1 {
+.projects-h2 h2 {
 	font-weight: 600 !important;
 	font-size: 30px;
 	text-align: center;
