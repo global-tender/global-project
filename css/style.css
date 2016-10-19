@@ -302,11 +302,6 @@ a {
 		margin-bottom: 0px;
 		font-size: 18px;
 	}
-
-	.index-slide0-under-main-text {
-		margin-bottom: -10px;
-		margin-top: -10px;
-	}
 }
 
 .text-branding {
@@ -860,13 +855,17 @@ footer {
 }
 
 .order_call_button {
-	top: 45%;
 	text-align: center;
-	position: relative;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 15%;
 }
 
 .order_call_button.order_project_button {
 	padding-bottom: 40px;
+	position: relative;
+	bottom: inherit;
 }
 
 .order_call_button a {
@@ -911,11 +910,5 @@ footer {
 @media only screen and (max-width: 600px) {
 	.order_call_button a {
 		font-size: 16px;
-	}
-}
-
-@media only screen and (max-width: 500px) {
-	.order_call_button {
-		top: 41%;
 	}
 }
