@@ -302,6 +302,10 @@ a {
 		margin-bottom: 0px;
 		font-size: 18px;
 	}
+
+	.index-slide0-main-text {
+		top: 55%;
+	}
 }
 
 .text-branding {
