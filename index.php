@@ -39,6 +39,10 @@
 				</div>
 			</div>
 
+			<div class="first-project-free-text">
+				<h3>Первый проект БЕСПЛАТНО</h3>
+			</div>
+
 			<div class="order_call_button">
 				<a href="#" onclick="return orderCall();" title="Рассчитать стоимость">Рассчитать стоимость</a>
 			</div>
