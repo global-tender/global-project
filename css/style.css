@@ -288,6 +288,17 @@ a {
 	display: inline;
 }
 
+.first-project-free-text {
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 23%;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	font-size: 18px;
+}
+
 @media screen and (max-width: 740px) {
 	.index-slide0-under-main-text h2 {
 		font-size: 16px;
@@ -305,6 +316,10 @@ a {
 
 	.index-slide0-main-text {
 		top: 54%;
+	}
+
+	.first-project-free-text {
+		display: none;
 	}
 }
 
