@@ -40,7 +40,7 @@
 			</div>
 
 			<div class="first-project-free-text">
-				<h3>Первый проект БЕСПЛАТНО</h3>
+				<h3>В короткие сроки!</h3>
 			</div>
 
 			<div class="order_call_button">
