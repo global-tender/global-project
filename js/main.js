@@ -105,7 +105,7 @@ $(document).ready(function(){
 $(document).ready(function() {
 	if ( $(".fittext-slide0"))
 	{
-		$(".fittext-slide0").fitText(2, { minFontSize: '22px', maxFontSize: '50px' });
+		$(".fittext-slide0").fitText(2, { minFontSize: '16px', maxFontSize: '50px' });
 		$(".fittext-slide1").fitText(2, { minFontSize: '14px', maxFontSize: '30px' });
 		//$(".fittext-slide2").fitText(2, { minFontSize: '14px', maxFontSize: '34px' });
 		$(".fittext-slide3").fitText(3, { minFontSize: '14px', maxFontSize: '26px' });
