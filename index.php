@@ -44,7 +44,7 @@
 			</div>
 
 			<div class="order_call_button">
-				<a href="#" onclick="return orderCall();" title="Рассчитать стоимость">Рассчитать стоимость</a>
+				<a href="#" onclick="return getPrice();" title="Рассчитать стоимость">Рассчитать стоимость</a>
 			</div>
 
 			<a href="#" class="down-link"><i class="fa fa-angle-double-down"></i></a>
