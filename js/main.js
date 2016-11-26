@@ -124,6 +124,12 @@ function orderCall()
 	return false;
 }
 
+function getPrice()
+{
+	$.fancybox('/ajax.php?get_price',{type:'ajax',helpers:{overlay:{locked:true}}});
+	return false;
+}
+
 function ajaxFormTry(ajaxForm){
 	$.post(
 		ajaxForm.attr('action'),

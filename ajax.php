@@ -1,5 +1,9 @@
 <?php
 
+/* ********************** */
+/* Форма: Задать вопрос */
+/* ********************** */
+
 if (isset($_GET['question']))
 {?>
 	<?php
@@ -132,10 +136,112 @@ if (isset($_GET['question']))
 
 
 /* ********************** */
-/* Форма: Оставьте заявку - перезвонить вам */
+/* Форма: Оставьте заявку - рассчитать стоимость */
 /* ********************** */
 
+elseif (isset($_GET['get_price'])) {
 
+	if (isset($_POST['gp_email']) && isset($_POST['gp_square']) && isset($_POST['gp_type']))
+	{
+		$email = $_POST['gp_email'];
+		$ob_square = $_POST['gp_square'];
+		$ob_type = $_POST['gp_type'];
+
+		if (trim($ob_square) === "")
+		{?>
+			<div class="modal-wrap">
+				<br /><br /><br />
+
+				<h2>Не введена площадь!</h2>
+
+				<br /><br /><br />
+			</div>
+			
+			<?
+			return false;
+		}
+
+		if (trim($ob_type) === "")
+		{?>
+			<div class="modal-wrap">
+				<br /><br /><br />
+
+				<h2>Не введен вид объекта!</h2>
+
+				<br /><br /><br />
+			</div>
+			
+			<?
+			return false;
+		}
+
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+		{?>
+			<div class="modal-wrap">
+				<br /><br /><br />
+
+				<h2>Неверный E-Mail адрес!</h2>
+
+				<br /><br /><br />
+			</div>
+			
+			<?
+			return false;
+		}
+
+		/* ========== */
+		$content = "Заявка Рассчитать Стоимость с сайта глобал-проект.рф.\n\nE-Mail: {$email}\nПлощадь: {$ob_square}\nВид объекта: {$ob_type}\n\nСообщение сформировано автоматически.\n";
+		$from_user = '=?UTF-8?B?'.base64_encode('глобал-проект.рф').'?=';
+		$subject = '=?UTF-8?B?'.base64_encode('Заявка Рассчитать Стоимость с сайта глобал-проект.рф').'?=';
+
+		$headers = 'From: '.$from_user.' <info@ihptru.ptpgo.com>' . "\r\n" .
+		'Reply-To: info@ihptru.ptpgo.com' . "\r\n" .
+		'BCC: ihptru@gmail.com' . "\r\n" .
+		'MIME-Version: 1.0' . "\r\n" .
+		'Content-type: text/plain; charset=utf-8' . "\r\n" .
+		'Return-Path: info@ihptru.ptpgo.com.' . "\r\n";
+
+		$params = "-finfo@ihptru.ptpgo.com";
+
+		mail("global-proect@mail.ru", $subject, $content, $headers, $params);
+
+		?>
+
+		<div class="modal-wrap">
+			<br /><br /><br />
+
+			<h2>Спасибо!</h2>
+			<h3>Ваша заявка рассчитать стоимость объекта принята в обработку.</h3>
+
+			<br /><br /><br />
+		</div>
+
+		<?
+		return true;
+	}
+
+
+	?>
+	<div class="modal-wrap">
+		
+		<h2>Рассчитать стоимость</h2>
+
+		<form class="question_form" name="question_form" id="question_form" action="/ajax.php?get_price" method="POST" onsubmit="return ajaxFormTry($(this));">
+			<label>*</label><input name="gp_email" type="email" placeholder="Ваш E-Mail" title="Ваш E-Mail" required="">
+			<br /><label>*</label><input name="gp_square" type="text" placeholder="Площадь" title="Площадь" required="">
+			<br /><label>*</label><input name="gp_type" type="text" placeholder="Вид объекта" title="Вид объекта" required="">
+			<br /><input type="submit" name="submit_message" value="Отправить">
+		</form>
+
+	</div>
+<?
+}
+
+
+
+/* ********************** */
+/* Форма: Оставьте заявку - перезвонить вам */
+/* ********************** */
 
 elseif (isset($_GET['order_call'])) {
 
