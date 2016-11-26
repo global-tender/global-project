@@ -629,23 +629,6 @@ footer {
 	font-weight: bold;
 }
 
-.down-link-container {
-	z-index: 5;
-	position: absolute;
-	display: inline-block;
-	bottom: 0;
-	margin-bottom: 12px;
-	left: 50%;
-	margin-left: -16px;
-}
-
-.down-link-slides {
-	color: #fff;
-	text-shadow: 1px 1px 1px #0600A0;
-	text-decoration: none;
-	font-size: 50px;
-}
-
 .down-link {
 	position: absolute;
 	display: inline-block;
@@ -661,7 +644,7 @@ footer {
 
 @media screen and (max-width: 400px) {
 	.down-link {
-		bottom: 0%;
+		display: none;
 	}
 }
 
@@ -938,12 +921,12 @@ footer {
 
 @media only screen and (max-width: 600px) {
 	.order_call_button a {
-		font-size: 16px;
+		font-size: 14px;
 	}
 }
 
 @media only screen and (max-width: 400px) {
 	.order_call_button {
-		bottom: 12%;
+		bottom: 5px;
 	}
 }
