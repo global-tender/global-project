@@ -62,31 +62,6 @@ $(document).ready(function () {
 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
 
 
-$(document).ready(function(){
-	ymaps.ready(init);
-	var myMap, 
-	myPlacemark;
-
-	function init(){ 
-		myMap = new ymaps.Map("map", {
-			center: [47.220084, 39.712066],
-			zoom: 16,
-			controls: []
-		}); 
-
-		//myMap.behaviors.disable("scrollZoom");
-
-		myPlacemark = new ymaps.Placemark([47.219104, 39.712066], {
-			hintContent: 'ГК Глобал-Проект',
-			balloonContent: 'Россия, Ростов-на-Дону, улица Серафимовича, 58А, оф. 502'
-		}, {
-			preset: 'islands#blueDotIcon'
-		});
-
-		myMap.geoObjects.add(myPlacemark);
-	}
-});
-
 
 $(document).ready(function() {
 	$().UItoTop({ easingType: 'easeOutQuart' });
@@ -107,7 +82,6 @@ $(document).ready(function() {
 	{
 		$(".fittext-slide0").fitText(2, { minFontSize: '15px', maxFontSize: '50px' });
 		$(".fittext-slide1").fitText(2, { minFontSize: '14px', maxFontSize: '30px' });
-		//$(".fittext-slide2").fitText(2, { minFontSize: '14px', maxFontSize: '34px' });
 		$(".fittext-slide3").fitText(3, { minFontSize: '14px', maxFontSize: '26px' });
 	}
 });
