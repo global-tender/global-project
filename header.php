@@ -36,7 +36,7 @@
 
 		<link rel="stylesheet" href="/css/normalize.css">
 		<link rel="stylesheet" href="/css/main.css">
-		<link rel="stylesheet" href="/css/style.css?ver=0.011">
+		<link rel="stylesheet" href="/css/style.css?ver=0.013">
 
 		<!-- Google -->
 		<script type="text/javascript">
