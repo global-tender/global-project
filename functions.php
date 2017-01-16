@@ -8,7 +8,7 @@ function send_sms_to_admin($sms_api_id, $sms_admin_phone) {
 
 		"api_id"		=>	$sms_api_id,
 		"to"			=>	$sms_admin_phone,
-		"text"		=>	iconv("windows-1251","utf-8","Событие+с+сайта+глобал-проект.рф,+проверьте+почту")
+		"text"			=>	"Событие+с+сайта+глобал-проект.рф,+проверьте+почту"
 
 	));
 	$body = curl_exec($ch);
