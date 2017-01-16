@@ -1,7 +1,7 @@
 <?php
 
 function send_sms_to_admin($sms_api_id, $sms_admin_phone) {
-	$ch = curl_init("http://sms.ru/sms/send");
+	/*$ch = curl_init("http://sms.ru/sms/send");
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
 	curl_setopt($ch, CURLOPT_TIMEOUT, 30);
 	curl_setopt($ch, CURLOPT_POSTFIELDS, array(
@@ -12,6 +12,6 @@ function send_sms_to_admin($sms_api_id, $sms_admin_phone) {
 
 	));
 	$body = curl_exec($ch);
-	curl_close($ch);
+	curl_close($ch);*/
 }
 ?>
