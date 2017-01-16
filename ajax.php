@@ -1,5 +1,8 @@
 <?php
 
+include_once("./settings.php");
+include_once("./functions.php");
+
 /* ********************** */
 /* Форма: Задать вопрос */
 /* ********************** */
@@ -74,6 +77,7 @@ if (isset($_GET['question']))
 		$params = "-finfo@ihptru.ptpgo.com";
 
 		mail("global-proect@mail.ru", $subject, $content, $headers, $params);
+		send_sms_to_admin($sms_api_id, $sms_admin_phone);
 
 		/* ========== */
 		/* ========== */
@@ -204,6 +208,7 @@ elseif (isset($_GET['get_price'])) {
 		$params = "-finfo@ihptru.ptpgo.com";
 
 		mail("global-proect@mail.ru", $subject, $content, $headers, $params);
+		send_sms_to_admin($sms_api_id, $sms_admin_phone);
 
 		?>
 
@@ -293,6 +298,7 @@ elseif (isset($_GET['order_call'])) {
 		$params = "-finfo@ihptru.ptpgo.com";
 
 		mail("global-proect@mail.ru", $subject, $content, $headers, $params);
+		send_sms_to_admin($sms_api_id, $sms_admin_phone);
 
 		?>
 
