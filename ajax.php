@@ -248,13 +248,23 @@ elseif (isset($_GET['get_price'])) {
 
 		<form class="question_form" name="question_form" id="question_form" action="/ajax.php?get_price" method="POST" onsubmit="return ajaxFormTry($(this));">
 			<label>*</label><input name="gp_email" type="email" placeholder="Ваш E-Mail" title="Ваш E-Mail" required="">
-			<br /><label>*</label><input name="gp_phone" type="text" placeholder="Номер телефона" title="Номер телефона" required="">
+			<br /><label>*</label><input name="gp_phone" type="text" placeholder="Номер телефона" title="Номер телефона" class="gp_phone" required="">
 			<br /><label>*</label><input name="gp_square" type="text" placeholder="Площадь" title="Площадь" required="">
 			<br /><label>*</label><input name="gp_type" type="text" placeholder="Вид объекта" title="Вид объекта" required="">
 			<br /><input type="submit" name="submit_message" value="Отправить">
 		</form>
 
 	</div>
+
+	<script>
+	$(document).ready(function(){
+		$('.gp_phone').mask('+0 (000) 000-00-00');
+		$('.gp_phone').on('click', function() {
+			if ( $('.gp_phone').val() == "" )
+				$('.gp_phone').val('+7 ');
+		});
+	});
+	</script>
 <?
 }
 
