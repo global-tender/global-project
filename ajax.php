@@ -145,11 +145,26 @@ if (isset($_GET['question']))
 
 elseif (isset($_GET['get_price'])) {
 
-	if (isset($_POST['gp_email']) && isset($_POST['gp_square']) && isset($_POST['gp_type']))
+	if (isset($_POST['gp_email']) && isset($_POST['gp_square']) && isset($_POST['gp_type']) && isset($_POST['gp_phone']))
 	{
 		$email = $_POST['gp_email'];
 		$ob_square = $_POST['gp_square'];
 		$ob_type = $_POST['gp_type'];
+		$phone = isset($_POST['gp_phone']) ? $_POST['gp_phone'] : "";
+
+		if (trim($phone) === "+7" || trim($phone) === "")
+		{?>
+			<div class="modal-wrap">
+				<br /><br /><br />
+
+				<h2>Не введен номер телефона!</h2>
+
+				<br /><br /><br />
+			</div>
+
+			<?
+			return false;
+		}
 
 		if (trim($ob_square) === "")
 		{?>
@@ -160,7 +175,7 @@ elseif (isset($_GET['get_price'])) {
 
 				<br /><br /><br />
 			</div>
-			
+
 			<?
 			return false;
 		}
@@ -194,7 +209,7 @@ elseif (isset($_GET['get_price'])) {
 		}
 
 		/* ========== */
-		$content = "Заявка Рассчитать Стоимость с сайта глобал-проект.рф.\n\nE-Mail: {$email}\nПлощадь: {$ob_square}\nВид объекта: {$ob_type}\n\nСообщение сформировано автоматически.\n";
+		$content = "Заявка Рассчитать Стоимость с сайта глобал-проект.рф.\n\nE-Mail: {$email}\nТелефон: {$phone}\nПлощадь: {$ob_square}\nВид объекта: {$ob_type}\n\nСообщение сформировано автоматически.\n";
 		$from_user = '=?UTF-8?B?'.base64_encode('глобал-проект.рф').'?=';
 		$subject = '=?UTF-8?B?'.base64_encode('Заявка Рассчитать Стоимость с сайта глобал-проект.рф').'?=';
 
@@ -233,6 +248,7 @@ elseif (isset($_GET['get_price'])) {
 
 		<form class="question_form" name="question_form" id="question_form" action="/ajax.php?get_price" method="POST" onsubmit="return ajaxFormTry($(this));">
 			<label>*</label><input name="gp_email" type="email" placeholder="Ваш E-Mail" title="Ваш E-Mail" required="">
+			<br /><label>*</label><input name="gp_phone" type="text" placeholder="Номер телефона" title="Номер телефона" required="">
 			<br /><label>*</label><input name="gp_square" type="text" placeholder="Площадь" title="Площадь" required="">
 			<br /><label>*</label><input name="gp_type" type="text" placeholder="Вид объекта" title="Вид объекта" required="">
 			<br /><input type="submit" name="submit_message" value="Отправить">
