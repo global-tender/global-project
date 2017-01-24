@@ -121,13 +121,18 @@
 					<div class="projects-h2"><h2 class="clean">Проекты</h2></div>
 
 					<div class="projects-imgs highslide-gallery">
+						<a class="highslide project-img" href="/img/projects/project_011.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_011.jpg" alt="Схема ПЗУ откорректированная" />
+						</a>
+						<a class="highslide project-img" href="/img/projects/project_010.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_010.jpg" alt="Схема ПЗУ" />
+						</a>
 						<a class="highslide project-img" href="/img/projects/project_009.jpg" onclick="return hs.expand(this, config1);">
 							<img src="/img/projects/sml/sml_project_009.jpg" alt="Пример проекта" />
 						</a>
 						<a class="highslide project-img" href="/img/projects/project_008.jpg" onclick="return hs.expand(this, config1);">
 							<img src="/img/projects/sml/sml_project_008.jpg" alt="Пример проекта" />
 						</a>
-
 						<a class="highslide project-img" href="/img/projects/project_000.jpg" onclick="return hs.expand(this, config1);">
 							<img src="/img/projects/sml/sml_project_000.jpg" alt="Пример проекта" />
 						</a>
