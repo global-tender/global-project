@@ -40,11 +40,11 @@
 					<div class="projects-h2"><h2 class="clean">Проекты</h2></div>
 
 					<div class="projects-imgs highslide-gallery">
-						<a class="highslide project-img" href="/img/projects/project_011.jpg" onclick="return hs.expand(this, config1);">
-							<img src="/img/projects/sml/sml_project_011.jpg" alt="Схема ПЗУ откорректированная" />
+						<a class="highslide project-img" href="/img/projects/project_011-min.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_011-min.jpg" alt="Схема ПЗУ откорректированная" />
 						</a>
-						<a class="highslide project-img" href="/img/projects/project_010.jpg" onclick="return hs.expand(this, config1);">
-							<img src="/img/projects/sml/sml_project_010.jpg" alt="Схема ПЗУ" />
+						<a class="highslide project-img" href="/img/projects/project_010-min.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_010-min.jpg" alt="Схема ПЗУ" />
 						</a>
 						<a class="highslide project-img" href="/img/projects/project_009.jpg" onclick="return hs.expand(this, config1);">
 							<img src="/img/projects/sml/sml_project_009.jpg" alt="Пример проекта" />
