@@ -37,7 +37,7 @@
 
 			<div class="projects-wrapper">
 				<div class="projects">
-					<div class="projects-h2"><h2 class="clean">Проекты</h2></div>
+					<div class="projects-h2"><h2 class="clean">Наши проекты</h2></div>
 
 					<div class="projects-imgs highslide-gallery">
 						<a class="highslide project-img" href="/img/projects/project_011-min.jpg" onclick="return hs.expand(this, config1);">
