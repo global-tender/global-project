@@ -43,11 +43,8 @@
 						<a class="highslide project-img" href="/img/projects/project_011-min.jpg" onclick="return hs.expand(this, config1);">
 							<img src="/img/projects/sml/sml_project_011-min.jpg" alt="Схема ПЗУ откорректированная" />
 						</a>
-						<a class="highslide project-img" href="/img/projects/project_010-min.jpg" onclick="return hs.expand(this, config1);">
-							<img src="/img/projects/sml/sml_project_010-min.jpg" alt="Схема ПЗУ" />
-						</a>
-						<a class="highslide project-img" href="/img/projects/project_009.jpg" onclick="return hs.expand(this, config1);">
-							<img src="/img/projects/sml/sml_project_009.jpg" alt="Пример проекта" />
+						<a class="highslide project-img" href="/img/projects/project_004.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_004.jpg" alt="Пример проекта" />
 						</a>
 						<a class="highslide project-img" href="/img/projects/project_008.jpg" onclick="return hs.expand(this, config1);">
 							<img src="/img/projects/sml/sml_project_008.jpg" alt="Пример проекта" />
@@ -64,8 +61,8 @@
 						<a class="highslide project-img" href="/img/projects/project_003.jpg" onclick="return hs.expand(this, config1);">
 							<img src="/img/projects/sml/sml_project_003.jpg" alt="Пример проекта" />
 						</a>
-						<a class="highslide project-img" href="/img/projects/project_004.jpg" onclick="return hs.expand(this, config1);">
-							<img src="/img/projects/sml/sml_project_004.jpg" alt="Пример проекта" />
+						<a class="highslide project-img" href="/img/projects/project_009.jpg" onclick="return hs.expand(this, config1);">
+							<img src="/img/projects/sml/sml_project_009.jpg" alt="Пример проекта" />
 						</a>
 						<a class="highslide project-img" href="/img/projects/project_005.jpg" onclick="return hs.expand(this, config1);">
 							<img src="/img/projects/sml/sml_project_005.jpg" alt="Пример проекта" />
