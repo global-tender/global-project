@@ -107,20 +107,20 @@ input:invalid {
 	padding-bottom: 5px;
 
 	-webkit-transition: all 1.2s ease;
-        -o-transition: all 1.2s ease;
-        -ms-transition: all 1.2s ease;
-        -moz-transition: all 1.2s ease;
-        transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+	-ms-transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	transition: all 1.2s ease;
 }
 
 .ask-question:hover {
 	border: 1px solid rgba(255, 40, 0, 0.9);
 
 	-webkit-transition: all 1.2s ease;
-        -o-transition: all 1.2s ease;
-        -ms-transition: all 1.2s ease;
-        -moz-transition: all 1.2s ease;
-        transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+	-ms-transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	transition: all 1.2s ease;
 }
 
 .logo-top {
@@ -704,12 +704,12 @@ footer {
 	text-align: center;
 	position: relative;
 	display: table;
-    	margin: 0 auto;
-    	background: rgba(255, 255, 255, 0.8);
-    	padding-bottom: 5px;
-    	padding-left: 15px;
-    	padding-right: 15px;
-    	border-radius: 10px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.8);
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10px;
 }
 
 .projects-wrapper {
@@ -908,7 +908,6 @@ footer {
 	position: relative;
 	padding: 10px 20px;
 	padding-top: 8px;
-	border: dashed 2px #fff;
 	-webkit-border-radius: 14px;
 	-moz-border-radius: 14px;
 	border-radius: 14px;
@@ -932,7 +931,6 @@ footer {
 .order_call_button a:hover{
 	color: #ffffff;
 	background: rgba(255, 40, 0, 0.7);
-	border: dashed 2px rgba(255, 40, 0, 0.7);
 
 	-webkit-transition: all 1.2s ease;
 	-o-transition: all 1.2s ease;
