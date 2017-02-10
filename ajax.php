@@ -76,25 +76,8 @@ if (isset($_GET['question']))
 
 		$params = "-finfo@ihptru.ptpgo.com";
 
-		mail("global-proect@mail.ru", $subject, $content, $headers, $params);
+		mail($admin_email, $subject, $content, $headers, $params);
 		send_sms_to_admin($sms_api_id, $sms_admin_phone);
-
-		/* ========== */
-		/* ========== */
-		$content = "Копия вашего вопроса с сайта глобал-проект.рф.\n\nСообщение доставлено, ожидайте ответа.\n\nИмя: {$name}\nТелефон: {$phone}\nE-Mail: {$email}\nСообщение:\n\n{$message}\n\n\nСообщение сформировано автоматически.\n";
-		$from_user = '=?UTF-8?B?'.base64_encode('глобал-проект.рф').'?=';
-		$subject = '=?UTF-8?B?'.base64_encode('Копия: Задан вопрос на сайте глобал-проект.рф').'?=';
-
-		$headers = 'From: '.$from_user.' <info@ihptru.ptpgo.com>' . "\r\n" .
-		'Reply-To: info@ihptru.ptpgo.com' . "\r\n" .
-		'MIME-Version: 1.0' . "\r\n" .
-		'Content-type: text/plain; charset=utf-8' . "\r\n" .
-		'Return-Path: info@ihptru.ptpgo.com' . "\r\n";
-
-		$params = "-finfo@ihptru.ptpgo.com";
-
-		mail($email, $subject, $content, $headers, $params);
-		/* ========== */
 
 		?>
 
@@ -102,7 +85,6 @@ if (isset($_GET['question']))
 			<br /><br /><br />
 
 			<h2>Сообщение успешно отправлено!</h2>
-			<h3>Вам также направлена копия.</h3>
 
 			<br /><br /><br />
 		</div>
@@ -222,7 +204,7 @@ elseif (isset($_GET['get_price'])) {
 
 		$params = "-finfo@ihptru.ptpgo.com";
 
-		mail("global-proect@mail.ru", $subject, $content, $headers, $params);
+		mail($admin_email, $subject, $content, $headers, $params);
 		send_sms_to_admin($sms_api_id, $sms_admin_phone);
 
 		?>
@@ -323,7 +305,7 @@ elseif (isset($_GET['order_call'])) {
 
 		$params = "-finfo@ihptru.ptpgo.com";
 
-		mail("global-proect@mail.ru", $subject, $content, $headers, $params);
+		mail($admin_email, $subject, $content, $headers, $params);
 		send_sms_to_admin($sms_api_id, $sms_admin_phone);
 
 		?>
