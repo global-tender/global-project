@@ -751,7 +751,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
 	.projects-imgs .project-img img {
-		width: 182px;
+		width: 160px;
 	}
 	.projects-wrapper {
 		padding-left: 60px;
