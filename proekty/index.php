@@ -77,8 +77,8 @@
 
 				</div>
 
-				<div id="projects_arr_l" class="projects_arr_l"></div>
-				<div id="projects_arr_r" class="projects_arr_r"></div>
+				<div class="projects_arr_l">left</div>
+				<div class="projects_arr_r">right</div>
 
 			</div>
 
@@ -102,10 +102,28 @@ include_once("../footer.php");
 
 <script>
 
-	var projectsSlide = new itBeSlider({
-		display:$('.projects-imgs'),
-		next:$('#certs_arr_r'),
-		prev:$('#certs_arr_l'),
-	});
+	$('.projects-imgs').jcarousel();
+
+		$('.projects_arr_l')
+			.on('jcarouselcontrol:active', function() {
+				$(this).removeClass('inactive');
+			})
+			.on('jcarouselcontrol:inactive', function() {
+				$(this).addClass('inactive');
+			})
+			.jcarouselControl({
+				target: '-=1'
+			});
+
+		$('.projects_arr_r')
+			.on('jcarouselcontrol:active', function() {
+				$(this).removeClass('inactive');
+			})
+			.on('jcarouselcontrol:inactive', function() {
+				$(this).addClass('inactive');
+			})
+			.jcarouselControl({
+				target: '+=1'
+			});
 
 </script>
