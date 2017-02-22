@@ -77,10 +77,10 @@
 						</ul>
 					</div>
 
-				</div>
+					<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+					<a href="#" class="jcarousel-control-next">&rsaquo;</a>
 
-				<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-				<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+				</div>
 
 			</div>
 

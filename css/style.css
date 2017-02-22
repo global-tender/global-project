@@ -696,6 +696,7 @@ footer {
 	padding: 15px;
 	padding-bottom: 0px;
 	border-radius: 10px;
+	margin-bottom: 25px;
 }
 
 .projects-h2 h2 {
@@ -716,9 +717,6 @@ footer {
 }
 
 .projects-imgs {
-	margin-top: 25px;
-	text-align: center;
-	margin-left: 10px;
 }
 
 .projects-imgs .project-img img {
@@ -776,7 +774,7 @@ footer {
 .jcarousel-control-prev,
 .jcarousel-control-next {
 	position: absolute;
-	top: 200px;
+	top: 225px;
 	width: 30px;
 	height: 30px;
 	text-align: center;
