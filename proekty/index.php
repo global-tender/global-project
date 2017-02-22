@@ -40,41 +40,41 @@
 					<div class="projects-h2"><h2 class="clean">Наши проекты</h2></div>
 
 					<div class="jcarousel">
-						<div class="projects-imgs highslide-gallery">
-							<a class="highslide project-img" href="/img/projects/project_011-min.jpg" onclick="return hs.expand(this, config1);">
+						<ul class="projects-imgs highslide-gallery">
+							<li><a class="highslide project-img" href="/img/projects/project_011-min.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_011-min.jpg" alt="Схема ПЗУ откорректированная" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_004.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_004.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_004.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_008.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_008.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_008.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_000.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_000.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_000.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_001.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_001.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_001.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_002.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_002.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_002.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_003.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_003.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_003.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_009.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_009.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_009.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_005.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_005.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_005.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_006.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_006.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_006.jpg" alt="Пример проекта" />
-							</a>
-							<a class="highslide project-img" href="/img/projects/project_007.jpg" onclick="return hs.expand(this, config1);">
+							</a></li>
+							<li><a class="highslide project-img" href="/img/projects/project_007.jpg" onclick="return hs.expand(this, config1);">
 								<img src="/img/projects/sml/sml_project_007.jpg" alt="Пример проекта" />
-							</a>
-						</div>
+							</a></li>
+						</ul>
 					</div>
 
 					<a href="#" class="projects-arr-l">&lsaquo;</a>
