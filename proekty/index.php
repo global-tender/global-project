@@ -75,10 +75,10 @@
 						</a>
 					</div>
 
-				</div>
+					<div class="projects_arr_l">left</div>
+					<div class="projects_arr_r">right</div>
 
-				<div class="projects_arr_l">left</div>
-				<div class="projects_arr_r">right</div>
+				</div>
 
 			</div>
 
