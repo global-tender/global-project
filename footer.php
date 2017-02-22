@@ -18,6 +18,8 @@
 	<script type='text/javascript' src='/js/highslide/highslide.config.js'></script>
 	<link href='/js/highslide/highslide.css' rel='stylesheet'>
 
+	<script type='text/javascript' src='/js/plugins/itbeslider-min.js'></script>
+
 
 	<!-- Yandex.Map -->
 	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>

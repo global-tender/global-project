@@ -76,6 +76,10 @@
 					</div>
 
 				</div>
+
+				<div id="projects_arr_l" class="projects_arr_l"></div>
+				<div id="projects_arr_r" class="projects_arr_r"></div>
+
 			</div>
 
 			<div class="order_call_button order_project_button">
@@ -96,3 +100,12 @@ include_once("../footer-slide.php");
 include_once("../footer.php");
 ?>
 
+<script>
+
+	var projectsSlide = new itBeSlider({
+		display:$('.projects-imgs'),
+		next:$('#certs_arr_r'),
+		prev:$('#certs_arr_l'),
+	});
+
+</script>
