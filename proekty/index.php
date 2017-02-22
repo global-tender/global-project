@@ -75,8 +75,8 @@
 						</a>
 					</div>
 
-					<div class="projects_arr_l">left</div>
-					<div class="projects_arr_r">right</div>
+					<a href="#" class="projects-arr-l">&lsaquo;</a>
+					<a href="#" class="projects-arr-r">&rsaquo;</a>
 
 				</div>
 
