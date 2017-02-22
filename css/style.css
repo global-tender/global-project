@@ -750,6 +750,27 @@ footer {
 	z-index: 12;
 }
 
+
+
+.jcarousel {
+	position: relative;
+	overflow: hidden;
+}
+
+.jcarousel .projects-imgs {
+	width: 20000em;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.jcarousel .projects-imgs a {
+	float: left;
+}
+
+
+
 .modal-wrap {
 	border: rgba(2, 0, 35, 0.6) solid 3px;
 }
