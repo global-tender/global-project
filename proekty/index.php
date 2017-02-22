@@ -104,7 +104,7 @@ include_once("../footer.php");
 
 <script>
 
-	$('.jcarousel').jcarousel();
+	$('.jcarousel').jcarousel({wrap: 'both'});
 
 		$('.jcarousel-control-prev')
 			.on('jcarouselcontrol:active', function() {
