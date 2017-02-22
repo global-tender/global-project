@@ -696,7 +696,6 @@ footer {
 	padding: 15px;
 	padding-bottom: 0px;
 	border-radius: 10px;
-	margin-bottom: 25px;
 }
 
 .projects-h2 h2 {
@@ -723,8 +722,8 @@ footer {
 
 .projects-imgs .project-img img {
 	width: 280px;
-	margin-right: 17px;
-	margin-left: 17px;
+	margin-right: 18px;
+	margin-left: 18px;
 	border: 2px solid #999;
 	border-radius: 4px;
 	padding: 10px;
@@ -751,6 +750,16 @@ footer {
 	z-index: 12;
 }
 
+@media only screen and (max-width: 500px) {
+	.projects-imgs .project-img img {
+		width: 182px;
+	}
+	.projects-wrapper {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
 
 
 /** Carousel **/
@@ -770,6 +779,7 @@ footer {
 
 .jcarousel li {
 	float: left;
+	margin-top: 25px;
 }
 
 /** Carousel Controls **/
