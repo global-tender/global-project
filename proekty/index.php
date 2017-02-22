@@ -77,8 +77,8 @@
 						</ul>
 					</div>
 
-					<a href="#" class="projects-arr-l">&lsaquo;</a>
-					<a href="#" class="projects-arr-r">&rsaquo;</a>
+					<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+					<a href="#" class="jcarousel-control-next">&rsaquo;</a>
 
 				</div>
 
@@ -106,7 +106,7 @@ include_once("../footer.php");
 
 	$('.jcarousel').jcarousel();
 
-		$('.projects_arr_l')
+		$('.jcarousel-control-prev')
 			.on('jcarouselcontrol:active', function() {
 				$(this).removeClass('inactive');
 			})
@@ -117,7 +117,7 @@ include_once("../footer.php");
 				target: '-=1'
 			});
 
-		$('.projects_arr_r')
+		$('.jcarousel-control-next')
 			.on('jcarouselcontrol:active', function() {
 				$(this).removeClass('inactive');
 			})
