@@ -669,7 +669,6 @@ footer {
 	position: relative;
 	margin: 0 auto;
 	padding-top: 5px;
-	padding-bottom: 25px;
 }
 
 .projects:before {
@@ -780,6 +779,7 @@ footer {
 .jcarousel li {
 	float: left;
 	margin-top: 25px;
+	margin-bottom: 7px;
 }
 
 /** Carousel Controls **/
