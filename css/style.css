@@ -788,20 +788,25 @@ footer {
 .jcarousel-control-next {
 	position: absolute;
 	top: 225px;
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	text-align: center;
 	background: #4E443C;
 	color: #fff;
 	text-decoration: none;
 	text-shadow: 0 0 1px #000;
-	font: 24px/27px Arial, sans-serif;
+	font: 30px "Exo 2", sans-serif;
 	-webkit-border-radius: 30px;
 	   -moz-border-radius: 30px;
 			border-radius: 30px;
 	-webkit-box-shadow: 0 0 2px #999;
 	   -moz-box-shadow: 0 0 2px #999;
 			box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover {
+	background: rgba(78, 68, 60, 0.8);
 }
 
 .jcarousel-control-prev {
