@@ -227,10 +227,10 @@ elseif (isset($_GET['get_price'])) {
 		<h2>Рассчитать стоимость</h2>
 
 		<form class="question_form" name="question_form" id="question_form" action="/ajax.php?get_price" method="POST" onsubmit="return ajaxFormTry($(this));">
-			<label>*</label><input name="gp_email" type="email" placeholder="Ваш E-Mail" title="Ваш E-Mail" required="">
-			<br /><label>*</label><input name="gp_phone" type="text" placeholder="Номер телефона" title="Номер телефона" class="gp_phone" required="">
+			<label>*</label><input name="gp_type" type="text" placeholder="Вид объекта" title="Вид объекта" required="">
 			<br /><label>*</label><input name="gp_square" type="text" placeholder="Площадь" title="Площадь" required="">
-			<br /><label>*</label><input name="gp_type" type="text" placeholder="Вид объекта" title="Вид объекта" required="">
+			<br /><label>*</label><input name="gp_email" type="email" placeholder="Ваш E-Mail" title="Ваш E-Mail" required="">
+			<br /><label>*</label><input name="gp_phone" type="text" placeholder="Номер телефона" title="Номер телефона" class="gp_phone" required="">
 			<br /><input type="submit" name="submit_message" value="Отправить">
 		</form>
 
