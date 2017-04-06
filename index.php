@@ -21,7 +21,7 @@
 	</div>
 
 	<div class="logo-top">
-		<?if ($is_mobile) {?><a href="tel:+79508693501">+7 950 869 35 01</a><?} else {?>+7 950 869 35 01<?}?>
+		<?if ($is_mobile) {?><a href="tel:+78635298832">+7(863)529-88-32</a><?} else {?>+7(863)529-88-32<?}?>
 	</div>
 
 	<div class="full-wrapper">

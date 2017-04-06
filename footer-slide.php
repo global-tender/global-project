@@ -9,7 +9,7 @@
 
 		<div class="footer-contact-details" >
 			<p class="clean global-text contacts-text1">
-				<i class="fa fa-phone fa-1x"></i><span>Тел.:&nbsp;&nbsp; <?if ($is_mobile) {?><a href="tel:+79508693501" itemprop="telephone">+7 950 869 35 01</a><?} else {?><span itemprop="telephone">+7 950 869 35 01</span><?}?> - Луковский Алексей</span><br />
+				<i class="fa fa-phone fa-1x"></i><span>Тел.:&nbsp;&nbsp; <?if ($is_mobile) {?><a href="tel:+78635298832" itemprop="telephone">+7(863)529-88-32</a><?} else {?><span itemprop="telephone">+7(863)529-88-32</span><?}?> - Луковский Алексей</span><br />
 				<i class="fa fa fa-envelope-o fa-1x"></i><span>E-Mail:&nbsp;&nbsp; <a href="mailto:global-proect@mail.ru" title="Написать на почту" itemprop="email">global-proect@mail.ru</a></span>
 			</p>
 			<p class="clean global-text contacts-text2" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
