@@ -30,12 +30,12 @@
 			<div class="index-slide0-overlay"></div>
 			
 			<div class="index-slide0-main-text">
-				<h1 class="fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И ПРОЕКТ МЕЖЕВАНИЯ</h1>
+				<h1 class="bigEntrance fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И ПРОЕКТ МЕЖЕВАНИЯ</h1>
 
 				<div class="index-slide0-under-main-text">
-					<h2>Градостроительный план</h2>
-					<h2>Генеральный план</h2>
-					<h2>Линейный объект</h2>
+					<h2><span class="slideExpandUp">Градостроительный план</span></h2>
+					<h2><span class="slideExpandUp">Генеральный план</span></h2>
+					<h2><span class="slideExpandUp">Линейный объект</span></h2>
 				</div>
 			</div>
 
@@ -44,7 +44,7 @@
 			</div>
 
 			<div class="order_call_button">
-				<a href="#" onclick="return getPrice();" title="Рассчитать стоимость">Рассчитать стоимость</a>
+				<a href="#" class="hatch" onclick="return getPrice();" title="Рассчитать стоимость">Рассчитать стоимость</a>
 			</div>
 
 			<a href="#" class="down-link"><i class="fa fa-angle-double-down"></i></a>
@@ -165,7 +165,7 @@
 			</div>
 
 			<div class="order_call_button order_project_button">
-				<a href="#" onclick="return orderCall();" title="Заказать проект">Заказать проект</a>
+				<a href="#" class="pulse" onclick="return orderCall();" title="Заказать проект">Заказать проект</a>
 			</div>
 
 		</div>
