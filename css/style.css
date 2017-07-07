@@ -1341,4 +1341,8 @@ a.privacy-link-form:hover {
 	p.privacy-form-info {
 		font-size: 12px;
 	}
+
+	a.privacy-link-form {
+		font-size: 12px;
+	}
 }
