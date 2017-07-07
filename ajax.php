@@ -102,7 +102,8 @@ if (isset($_GET['question']))
 			<br /><label>*</label><input name="gp_email" type="email" placeholder="Ваш E-Mail" title="Ваш E-Mail" required="">
 			<br /><label>&nbsp;</label><input name="gp_phone" type="text" placeholder="Номер телефона" class="gp_phone" title="Номер телефона" maxlength="18" autocomplete="off">
 			<br /><label>*</label><textarea name="gp_message" placeholder="Ваш вопрос/сообщение" title="Ваш вопрос/сообщение" required=""></textarea>
-			<br /><input type="submit" name="submit_message" value="Отправить">
+			<p class="privacy-form-info">Отправляя эту форму, вы принимаете нашу <a href="/privacy/" target="_blank" class="privacy-link" title="Политика конфиденциальности">политику конфиденциальности</a>.</p>
+			<input type="submit" name="submit_message" value="Отправить">
 		</form>
 
 	</div>
@@ -231,7 +232,8 @@ elseif (isset($_GET['get_price'])) {
 			<br /><label>*</label><input name="gp_square" type="text" placeholder="Площадь" title="Площадь" required="">
 			<br /><label>*</label><input name="gp_email" type="email" placeholder="Ваш E-Mail" title="Ваш E-Mail" required="">
 			<br /><label>*</label><input name="gp_phone" type="text" placeholder="Номер телефона" title="Номер телефона" class="gp_phone" required="">
-			<br /><input type="submit" name="submit_message" value="Отправить">
+			<p class="privacy-form-info">Отправляя эту форму, вы принимаете нашу <a href="/privacy/" target="_blank" class="privacy-link" title="Политика конфиденциальности">политику конфиденциальности</a>.</p>
+			<input type="submit" name="submit_message" value="Отправить">
 		</form>
 
 	</div>
@@ -329,7 +331,8 @@ elseif (isset($_GET['order_call'])) {
 		<form class="question_form" name="question_form" id="question_form" action="/ajax.php?order_call" method="POST" onsubmit="return ajaxFormTry($(this));">
 			<label>*</label><input name="gp_name" type="text" placeholder="Ваше имя" title="Ваше имя" required="">
 			<br /><label>*</label><input name="gp_phone" type="text" placeholder="Номер телефона" class="gp_phone" title="Номер телефона" maxlength="18" autocomplete="off" required="">
-			<br /><input type="submit" name="submit_message" value="Перезвонить Вам">
+			<p class="privacy-form-info">Отправляя эту форму, вы принимаете нашу <a href="/privacy/" target="_blank" class="privacy-link" title="Политика конфиденциальности">политику конфиденциальности</a>.</p>
+			<input type="submit" name="submit_message" value="Перезвонить Вам">
 		</form>
 
 	</div>
