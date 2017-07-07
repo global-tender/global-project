@@ -541,7 +541,7 @@ footer {
 	padding-top: 10px;
 }
 
-.privacy_link a {
+.privacy-link a {
 	font-size: 14px;
 	text-decoration: none;
 	color: #BFBFBF;
@@ -549,7 +549,7 @@ footer {
 	border-bottom: 1px dashed #ccc;
 }
 
-.privacy_link a:hover {
+.privacy-link a:hover {
 	color: #FFF;
 	border-bottom: none;
 }
@@ -602,7 +602,7 @@ footer {
 		padding-top: 8px;
 	}
 
-	.privacy_link a {
+	.privacy-link a {
 		font-size: 12px;
 	}
 
