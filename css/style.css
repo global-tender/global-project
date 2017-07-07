@@ -1314,6 +1314,29 @@ p.privacy-form-info {
 	margin-top: 0px;
 }
 
+a.privacy-link-form {
+	font-size: 14px;
+	text-decoration: none;
+	color: #222;
+	font-weight: normal;
+	border-bottom: 1px dashed #ccc;
+
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+a.privacy-link-form:hover {
+	color: #999;
+	border-bottom: none;
+
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
 @media only screen and (max-width: 520px) {
 	p.privacy-form-info {
 		font-size: 12px;
