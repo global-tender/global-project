@@ -547,11 +547,21 @@ footer {
 	color: #BFBFBF;
 	font-weight: normal;
 	border-bottom: 1px dashed #ccc;
+
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
 }
 
 .privacy-link a:hover {
 	color: #FFF;
 	border-bottom: none;
+
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1268,5 +1278,31 @@ footer {
 	}
 	100%{
 		-webkit-transform: translateY(0%) scaleX(1);
+	}
+}
+
+.privacy-container {
+	position: relative;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.privacy {
+	height: 100%;
+	width: 100%;
+	max-width: 1024px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+.privacy p, .privacy ul li {
+	font-weight: normal;
+}
+
+@media only screen and (max-width: 500px) {
+	.privacy-container {
+		padding-left: 60px;
+		padding-right: 60px;
 	}
 }
