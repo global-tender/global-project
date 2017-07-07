@@ -19,6 +19,10 @@
 			</p>
 		</div>
 
+		<div class="privacy-link">
+			<a href="/privacy/" title="Политика конфиденциальности">Политика конфиденциальности</a>
+		</div>
+
 	</div>
 
 
