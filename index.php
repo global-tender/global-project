@@ -44,7 +44,7 @@
 			</div>
 
 			<div class="order_call_button">
-				<a href="#" class="hatch" onclick="return getPrice();" title="Рассчитать стоимость">Рассчитать стоимость</a>
+				<a href="#" class="pulse" onclick="return getPrice();" title="Рассчитать стоимость">Рассчитать стоимость</a>
 			</div>
 
 			<a href="#" class="down-link"><i class="fa fa-angle-double-down"></i></a>
