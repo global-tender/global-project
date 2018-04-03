@@ -3,7 +3,7 @@
 ```
 server {
         listen   80;
-        server_name xn----7sbchn4accyekm3a.xn--p1ai www.xn----7sbchn4accyekm3a.xn--p1ai;
+        server_name xn----itbbmaaj4afdlfacxbe.xn--p1ai;
 
         root /path/to/repository/root/;
         index index.php index.html index.htm;

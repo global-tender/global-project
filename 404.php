@@ -95,7 +95,7 @@ header("HTTP/1.0 404 Not Found");
 
 	<h1>Страница не найдена</h1>
 	<p>Извините! Страница, которую Вы ищете, не может быть найдена.</p>
-	<p><a href="/" title="Главная - Глобал-Проект.РФ">Перейти на главную</a></p>
+	<p><a href="/" title="Главная - проект-территории.рф">Перейти на главную</a></p>
 </body>
 </html>
 <!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
