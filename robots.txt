@@ -3,5 +3,5 @@ Disallow: /*?
 Disallow: /404.html
 Disallow: /wp-content
 
-Sitemap: http://xn----7sbchn4accyekm3a.xn--p1ai/sitemap.xml
-Host: xn----7sbchn4accyekm3a.xn--p1ai
+Sitemap: http://xn----itbbmaaj4afdlfacxbe.xn--p1ai/sitemap.xml
+Host: xn----itbbmaaj4afdlfacxbe.xn--p1ai 
