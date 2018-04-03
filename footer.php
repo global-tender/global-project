@@ -21,10 +21,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.4/jquery.jcarousel.min.js"></script>
 
 
-	<!-- Yandex.Map -->
-	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-
-
 	<script src="/js/main.js?ver=0.006"></script>
 
 	<script src="/js/vendor/modernizr-2.8.3.min.js"></script>
