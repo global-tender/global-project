@@ -81,6 +81,7 @@ $(document).ready(function() {
 	if ( $(".fittext-slide0"))
 	{
 		$(".fittext-slide0").fitText(2, { minFontSize: '15px', maxFontSize: '50px' });
+		$(".fittext-slide0_1").fitText(2, { minFontSize: '15px', maxFontSize: '50px' });
 		$(".fittext-slide1").fitText(2, { minFontSize: '14px', maxFontSize: '30px' });
 		$(".fittext-slide3").fitText(3, { minFontSize: '14px', maxFontSize: '26px' });
 	}
