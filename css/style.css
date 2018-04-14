@@ -308,7 +308,7 @@ input:invalid {
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 23%;
+	bottom: 22%;
 	color: #fff;
 	text-shadow: 1px 1px #000;
 	font-size: 18px;
@@ -345,7 +345,7 @@ input:invalid {
 }
 
 .fittext-slide0_1 {
-	padding-top: 15px;
+	padding-top: 12px;
 }
 
 /* Video */
@@ -653,10 +653,6 @@ a.privacy-link:hover {
 .clean {
 	margin-bottom: 0px;
 	margin-top: 0px;
-}
-
-.global-text {
-	padding-bottom: 10px;
 }
 
 .color1 {

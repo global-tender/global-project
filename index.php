@@ -30,8 +30,8 @@
 			<div class="index-slide0-overlay"></div>
 			
 			<div class="index-slide0-main-text">
-				<h1 class="bigEntrance fittext-slide0 clean global-text text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И ПРОЕКТ МЕЖЕВАНИЯ</h1>
-				<h1 class="pullUp fittext-slide0_1 clean global-text text-branding">РАБОТАЕМ ПО ЮГУ РОССИИ</h1>
+				<h1 class="bigEntrance fittext-slide0 clean text-branding">РАЗРАБАТЫВАЕМ ПРОЕКТ ПЛАНИРОВКИ ТЕРРИТОРИИ И ПРОЕКТ МЕЖЕВАНИЯ</h1>
+				<h1 class="pullUp fittext-slide0_1 clean text-branding">РАБОТАЕМ ПО ЮГУ РОССИИ</h1>
 
 				<div class="index-slide0-under-main-text">
 					<h2><span class="slideExpandUp">Градостроительный план</span></h2>
@@ -101,7 +101,7 @@
 			<div class="index-slide1-overlay"></div>
 
 			<div class="index-slide1-main-text">
-				<p class="fittext-slide1 clean global-text">
+				<p class="fittext-slide1 clean">
 					Выполнения проекта планировки территории у нас, позволит:
 				</p>
 				<ul>
